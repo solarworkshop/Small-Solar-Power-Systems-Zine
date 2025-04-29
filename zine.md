@@ -1,12 +1,10 @@
 ---
-layout: page
+layout: minimal
 title: 'Intro to Small Solar Power Systems Zine'
 nav_order: 0
-back_to_top: true
-back_to_top_text: "Back to top"
 ---
 
-# Intro to Small Solar Power Systems
+# Intro to Small Solar Power Systems Zine
 
 <details open markdown="block">
   <summary>

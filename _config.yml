@@ -25,15 +25,22 @@ url: "https://solarworkshop.github.io" # the base hostname & protocol for your s
 domain: solarworkshop.github.io
 
 # Build settings
-theme: just-the-docs
+#theme: just-the-docs
 remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins: ['jekyll-feed']
+
+aux_links:
+  Intro to Small Solar Power Systems Zine:
+  - '/zine.html'
+  Workshop Handout:
+  - '/handout.html'
 
 kramdown:
   toc_levels: 1..2
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+back_to_top: true
+search_enabled: true
+search.button: true
 
 header_pages:
   - zine.md

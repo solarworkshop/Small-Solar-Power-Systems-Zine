@@ -2,6 +2,8 @@
 layout: page
 title: 'Workshop Outline'
 nav_exclude: true
+search_exclude: true
+layout: minimal
 ---
 
 ## Introduction

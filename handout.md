@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Workshop Handout'
+layout: minimal
 ---
 
 # Workshop Handout
