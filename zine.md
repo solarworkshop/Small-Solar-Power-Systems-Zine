@@ -12,7 +12,7 @@ nav_order: 0
 
 _For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)_
 
-<details markdown="block">
+<details open markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -1441,7 +1441,7 @@ See the fuse and wire size sections above for me details.
 - **Ring Terminals** (for secure connections)
 - **Crimping Tool & Heat Shrink**
 
-## **Step-by-Step Wiring**
+## Step-by-Step Wiring
 
 ### **A. Connecting the Main Power Wires**
 
@@ -1480,11 +1480,11 @@ See the fuse and wire size sections above for me details.
 Each **fused circuit** powers a **12V device**, and all negatives return to the **battery negative or chassis ground**
 
 <!-- TOC --><a name="considerations-for-bigger-than-12v-systems"></a>
-# **Considerations for Bigger (than 12V) Systems**
+# Considerations for Bigger (than 12V) Systems
 
 While **12V solar systems** are common for small setups like RVs, boats, and off-grid cabins, **24V, 48V, and higher-voltage systems** offer advantages for larger power needs. Choosing the right voltage depends on **power requirements, wire sizing, and component compatibility**.
 
-## **1\. Advantages & Disadvantages of Different System Voltages**
+## Advantages & Disadvantages of Different System Voltages
 
 | **System Voltage** | **Best For** | **Advantages** | **Disadvantages** |
 | --- | --- | --- | --- |
@@ -1494,7 +1494,7 @@ While **12V solar systems** are common for small setups like RVs, boats, and off
 
 **General Rule:** **Higher voltage = less current = lower wire losses**.
 
-## **2\. Wire Sizing & Voltage Drop Considerations**
+## Wire Sizing & Voltage Drop Considerations
 
 - **Higher-voltage systems (24V, 48V) allow thinner wires** because **current (amps) is lower** for the same power output.
 - Example:
@@ -1504,7 +1504,7 @@ While **12V solar systems** are common for small setups like RVs, boats, and off
 
 If using **longer cable runs**, higher voltages reduce losses and improve efficiency.
 
-## **3\. Solar Panel Configuration for Higher Voltage Systems**
+## Solar Panel Configuration for Higher Voltage Systems
 
 ### **A. 12V System**
 
@@ -1523,7 +1523,7 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 **Important:** Charge controllers (MPPT or PWM) must match the **battery bank voltage**.
 
-## **4\. Battery Bank Considerations**
+## Battery Bank Considerations
 
 - **12V Systems** → Single **12V batteries** in parallel for more capacity.
 - **24V Systems** → Two **12V batteries in series** (or 24V batteries).
@@ -1534,7 +1534,7 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 !!! **Battery Chargers & Inverters Must Match Battery Voltage** – A 12V inverter **won't work** on a 24V system!
 
-## **5\. Charge Controllers & Inverters for Different Voltages**
+## Charge Controllers & Inverters for Different Voltages
 
 **PWM Controllers:** Only efficient if solar panel voltage closely matches battery voltage. Best for small 12V setups.  
 **MPPT Controllers:** Can step down higher panel voltages (e.g., 100V solar array to 24V or 48V battery). Best for **24V+ systems**.
@@ -1543,7 +1543,7 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 **DC-DC Converters:** Used to step down voltage for **12V accessories** in a 24V or 48V system.
 
-## **6\. Safety & Regulations for Higher Voltages**
+## Safety for Higher Voltages
 
 - **48V+ systems are considered "high voltage"** and require proper insulation and safety precautions.
 - **Fuses & breakers** must be rated for the system voltage and installed at each major component.
@@ -1552,11 +1552,11 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 **Warning:** DC voltage is more dangerous than AC at high levels—use proper safety gear when working with **48V+ systems**.
 
 <!-- TOC --><a name="tools-connectors-and-other-hardware"></a>
-# **Tools, Connectors, and Other Hardware**
+# Tools, Connectors, and Other Hardware
 
 A proper solar installation requires a variety of **tools for wiring, mounting, and securing components**, as well as **specialized connectors and crimpers** for making reliable electrical connections. Here are most of the tools and components you'll want to have on hand for a sucessful solar project:
 
-## **A. Electrical Tools**
+## Electrical Tools
 
 **Wire Cutters** – For cutting battery cables, solar wires, and general wiring.  
 **Wire Strippers** – To remove insulation from cables before crimping.  
@@ -1570,23 +1570,23 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **Box Cutter** - Sometimes useful to strip thick wires.
 **Soldering Iron** - To make more secure connections or join multiple wires.
 
-## **B. Mounting & Structural Tools**
+## Mounting & Structural Tools
 
 **Drill & Drill Bits** – For mounting brackets, charge controllers, and junction boxes.  
 **Screwdrivers (Flathead & Phillips)** – For securing terminal blocks and electrical components.  
 **Wrenches & Ratchet Set** – For tightening nuts and bolts on racking and battery terminals.  
 **Zip Ties & Wire Looms** – For organizing and securing wiring.
 
-## **2\. Connectors & Wiring Components**
+## Connectors & Wiring Components
 
-### **A. Solar Panel Connectors & Wiring**
+### Solar Panel Connectors & Wiring
 
 **MC4 Connectors** – Standard **weatherproof** connectors for solar panels.  
 **MC4 Y-Branch Splitters** – Used for parallel panel connections.  
 **Solar Extension Cables (10 AWG - 12 AWG)** – Pre-terminated solar cables for easy connections.  
 **Solar Combiner Box** – Organizes multiple solar strings before connecting to a charge controller.
 
-### **B. Battery & Inverter Connections**
+### Battery & Inverter Connections
 
 **Copper Battery Lugs (2 AWG - 8 AWG)** – For secure battery and inverter connections.  
 **Heat Shrink Tubing** – Provides insulation and strain relief on lug connections.  
@@ -1594,13 +1594,13 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **Bus Bars** – Distributes power between batteries and system components.  
 **Battery Terminal Covers** – Prevents accidental short circuits.
 
-### **C. Charge Controller & DC Distribution**
+### Charge Controller & DC Distribution
 
 **Inline Fuse Holders (ATC or ANL)** – Protects charge controller wiring.  
 **DC Circuit Breakers (Rated for 12V, 24V, 48V Systems)** – Provides resettable overcurrent protection.  
 **Anderson Powerpole Connectors** – Useful for quick-disconnect battery or accessory connections.
 
-## **3\. Recommended Crimpers**
+## Recommended Crimpers
 
 **MC4 Crimping Tool** – Required for making custom solar cable connections  
 
