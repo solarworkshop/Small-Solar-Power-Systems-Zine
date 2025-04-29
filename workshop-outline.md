@@ -1,4 +1,4 @@
-# Solar Workshop Outline
+# Workshop Outline
 
 ## Introduction
 

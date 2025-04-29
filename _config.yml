@@ -17,19 +17,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-title: Small Solar Power Systems Zine
+title: "Small Solar Power Systems Zine"
 email: solarworkshop@proton.me
-description: >- # this means to ignore newlines until "baseurl:"
-  Small Solar Power Systems
-baseurl: "/Small-Solar-Power-Systems-Zine/" # the subpath of your site, e.g. /blog
+description: "Small Solar Power Systems"
+baseurl: "/Small-Solar-Power-Systems-Zine" # the subpath of your site, e.g. /blog
 url: "https://solarworkshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: solarworkshop.github.io
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+plugins: ['jekyll-feed']
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -39,8 +36,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
- exclude:
-    - todos.md
+exclude: ['todos.md']
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/

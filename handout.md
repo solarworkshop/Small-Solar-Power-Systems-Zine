@@ -1,4 +1,4 @@
-# Small Solar Power Systems Workshop
+# Workshop Handout
 
 ## Basic Component Layout
 
