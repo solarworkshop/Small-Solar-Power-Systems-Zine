@@ -25,9 +25,12 @@ url: "https://solarworkshop.github.io" # the base hostname & protocol for your s
 domain: solarworkshop.github.io
 
 # Build settings
-theme: minima
+theme: just-the-docs
 plugins: ['jekyll-feed']
 
+aux_links:
+  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  
 header_pages:
   - zine.md
   - handout.md
