@@ -1,16 +1,7 @@
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
 - [Intro to Small Solar Power Systems](#intro-to-small-solar-power-systems)
-   * [Introduction](#introduction)
-   * [Saftey](#saftey)
 - [Electricity](#electricity)
-   * [What Is a Circuit?](#what-is-a-circuit)
-   * [Characteristic of Electricity](#characteristic-of-electricity)
-   * [Power Formula](#power-formula)
-   * [Adding the Hours Measure](#adding-the-hours-measure)
-   * [AC vs. DC Power](#ac-vs-dc-power)
-   * [Polarity](#polarity)
-   * [Multimeters](#multimeters)
 - [Overview of Solar Components](#overview-of-solar-components)
 - [Planning Your System Capacity](#planning-your-system-capacity)
 - [Planning Your System Wiring](#planning-your-system-wiring)
@@ -24,10 +15,6 @@
 - [Design and Wire a 12V Fuse Box](#design-and-wire-a-12v-fuse-box)
 - [**Considerations for Bigger (than 12V) Systems**](#considerations-for-bigger-than-12v-systems)
 - [**Tools, Connectors, and Other Hardware**](#tools-connectors-and-other-hardware)
-   * [**A. Electrical Tools**](#a-electrical-tools)
-   * [**B. Mounting & Structural Tools**](#b-mounting-structural-tools)
-   * [**2\. Connectors & Wiring Components**](#2-connectors-wiring-components)
-   * [**3\. Recommended Crimpers**](#3-recommended-crimpers)
 - [12V Solar Systems Budget Examples](#12v-solar-systems-budget-examples)
 - [Beginner Solar System Planning Checklist](#beginner-solar-system-planning-checklist)
 
@@ -43,14 +30,12 @@ This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarw
 
 For digital version and more resources visit [linktr.ee/solarworkshop](https://linktr.ee/solarworkshop)
 
-<!-- TOC --><a name="introduction"></a>
 ## Introduction
 
 This zine for anyone at any skill level looking to build small solar power systems for power in remote locations, during disaster relief situations, or built into a vehicle. It is intended to cover as much as possible, but is far from exhaustive about any of these topics. It also assumes you’re starting out having never done anything with electricity at all. Which is fine, because we believe these are skills anyone can learn.
 
 By small we mean systems for powering lights, laptops, phones, radios, and the like, not for powering your a whole house or household appliances. If you do want to build bigger systems, this is still a fine place to start.
 
-<!-- TOC --><a name="saftey"></a>
 ## Saftey
 
 I’ve often heard “I just don’t mess with electrical stuff because it scares me” so I want to touch on electrical saftey briefly first in hope that you feel empowered to play with eletricity and learn in a safe way. There is a lot more to this topic, but we’re going to touch on some basics as they pertain to small solar setups.
@@ -81,7 +66,6 @@ Electricity is the flow of electric charge through a conductor, such as a wire.
 
 Electricity occurs due to the movement of electrons, which are negatively charged particles found in atoms. When electrons move from one atom to another in a controlled way, an electric current is created.
 
-<!-- TOC --><a name="what-is-a-circuit"></a>
 ## What Is a Circuit?
 
 A circuit is simply a pathway that allows electricity to flow from a power source (like a battery or solar panel), through wires and devices (such as lights, appliances, or other loads), and back to the power source.
@@ -106,7 +90,6 @@ At its core, a circuit includes three basic parts:
 
 Think of it like water flowing through a hose: the pump (power source) pushes water (electricity) through the hose (wire), spins a water wheel (load), and then the water returns to the pump.
 
-<!-- TOC --><a name="characteristic-of-electricity"></a>
 ## Characteristic of Electricity
 
 Let’s try to explain some key electrical concepts using the analogy of water flowing through a pipe.
@@ -125,7 +108,6 @@ _Bonus that you probably won’t use for our purposes but you might as well know
 
 **Resistance** (R) - (measured in **ohms**, represented as Ω) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
 
-<!-- TOC --><a name="power-formula"></a>
 ## Power Formula
 
 There is one important relationship amung these concepts that will help you immensly in working on solar power projects (and probably your every day life if you ever look at electrical appliance labels). But that means we have to introduce a formula - the formula for power. Remember power is just the amount of water you get at the end of the pipe once you’ve adjusted the size of the pipe and the flow rate of the water.
@@ -145,7 +127,6 @@ The power formula also allows you to find voltage if you have current and power 
 
 Let’s see why this formula is useful. Suppose you have a USB charger that says it’s rated to 30 watts. We also know that USB devices are all 5 volts.
 
-<!-- TOC --><a name="adding-the-hours-measure"></a>
 ## Adding the Hours Measure
 
 When designing a **small solar power system**, it’s essential to understand **Amp-Hours** (Ah) and **Watt-Hours** (Wh) to measure battery capacity and energy consumption.
@@ -194,7 +175,6 @@ This means the battery can **deliver 1,200 watts for 1 hour** or **100 watts for
 - **Estimating Energy Consumption:** Devices use **Wh** (e.g., a 50W fan for 5 hours = 250Wh).
 - **System Efficiency:** Inverters and other components affect how much of the stored **Wh** can actually be used.
 
-<!-- TOC --><a name="ac-vs-dc-power"></a>
 ## AC vs. DC Power
 
 Electricity can flow in two different ways: **Alternating Current (AC)** and **Direct Current (DC)**. Both are used in electrical systems but have different characteristics and applications. You do not need to really know any of this for the rest of our purposes; besides that we will be using mostly DC unless otherwise specificed, and that AC and DC power are not interchangable or mixable.
@@ -222,7 +202,6 @@ DC power **flows in only one direction**, with a constant voltage level. It is c
 - Common in small-scale and off-grid power systems.
 - Common uses include: solar power systems, batteries in cars, laptops, and phones, LED lighting, and small electronics.
 
-<!-- TOC --><a name="polarity"></a>
 ## Polarity
 
 **Polarity** refers to the positive (**+**) and negative (**\-**) orientation of a DC circuit. Unlike AC power, which alternates direction, **DC electricity flows in only one direction**.
@@ -239,7 +218,6 @@ A multimeter can help confirm **polarity** before making connections.
 **Ensures proper battery and solar panel connections** – Incorrect polarity can prevent charging or damage charge controllers.  
 **Avoids wiring mistakes in DIY solar systems** – Double-checking polarity before connecting wires prevents costly errors.
 
-<!-- TOC --><a name="multimeters"></a>
 ## Multimeters
 
 A **multimeter** is an essential tool for measuring **DC voltage** in a small solar power system. It helps check the voltage of batteries, solar panels, and other DC components to ensure they are functioning correctly.
@@ -1604,7 +1582,6 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 A proper solar installation requires a variety of **tools for wiring, mounting, and securing components**, as well as **specialized connectors and crimpers** for making reliable electrical connections. Here are most of the tools and components you'll want to have on hand for a sucessful solar project:
 
-<!-- TOC --><a name="a-electrical-tools"></a>
 ## **A. Electrical Tools**
 
 **Wire Cutters** – For cutting battery cables, solar wires, and general wiring.  
@@ -1619,7 +1596,6 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **Box Cutter** - Sometimes useful to strip thick wires.
 **Soldering Iron** - To make more secure connections or join multiple wires.
 
-<!-- TOC --><a name="b-mounting-structural-tools"></a>
 ## **B. Mounting & Structural Tools**
 
 **Drill & Drill Bits** – For mounting brackets, charge controllers, and junction boxes.  
@@ -1627,7 +1603,6 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **Wrenches & Ratchet Set** – For tightening nuts and bolts on racking and battery terminals.  
 **Zip Ties & Wire Looms** – For organizing and securing wiring.
 
-<!-- TOC --><a name="2-connectors-wiring-components"></a>
 ## **2\. Connectors & Wiring Components**
 
 ### **A. Solar Panel Connectors & Wiring**
@@ -1651,7 +1626,6 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **DC Circuit Breakers (Rated for 12V, 24V, 48V Systems)** – Provides resettable overcurrent protection.  
 **Anderson Powerpole Connectors** – Useful for quick-disconnect battery or accessory connections.
 
-<!-- TOC --><a name="3-recommended-crimpers"></a>
 ## **3\. Recommended Crimpers**
 
 **MC4 Crimping Tool** – Required for making custom solar cable connections  
