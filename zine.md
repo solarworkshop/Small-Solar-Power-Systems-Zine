@@ -8,11 +8,9 @@ nav_order: 0
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
 
-version 0.1.1
+<small>version 0.1.1 - This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.</small>
 
-This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.
-
-For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)
+_For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)_
 
 <details markdown="block">
   <summary>
