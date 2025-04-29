@@ -30,7 +30,7 @@ layout: home
 <!-- TOC --><a name="intro-to-small-solar-power-systems"></a>
 # Intro to Small Solar Power Systems
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/basic-setup.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/basic-setup.png)
 version 0.1.1
 
 This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.
@@ -186,7 +186,7 @@ This means the battery can **deliver 1,200 watts for 1 hour** or **100 watts for
 
 Electricity can flow in two different ways: **Alternating Current (AC)** and **Direct Current (DC)**. Both are used in electrical systems but have different characteristics and applications. You do not need to really know any of this for the rest of our purposes; besides that we will be using mostly DC unless otherwise specificed, and that AC and DC power are not interchangable or mixable.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/dc_vs_ac.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/dc_vs_ac.png)
 
 ### Alternating Current (AC)
 
@@ -229,7 +229,7 @@ A multimeter can help confirm **polarity** before making connections.
 
 A **multimeter** is an essential tool for measuring **DC voltage** in a small solar power system. It helps check the voltage of batteries, solar panels, and other DC components to ensure they are functioning correctly.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/multimeter.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/multimeter.png)
 
 ### Measuring DC Voltage & Checking Polarity
 
@@ -271,7 +271,7 @@ A small solar power system consists of several key components that work together
 
 ### 2\. Charge Controller
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/charge-controllers.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/charge-controllers.jpg)
 
 **Function:** Regulates the power from solar panels to **prevent overcharging** the battery. Can also help prevent battery from being over discharged.
 
@@ -280,7 +280,7 @@ A small solar power system consists of several key components that work together
 
 ### 3\. Battery
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/batteries.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/batteries.png)
 
 **Function:** Stores energy for use when the sun isn’t shining. The two most popular options are:
 
@@ -289,7 +289,7 @@ A small solar power system consists of several key components that work together
 
 ### 4\. Inverter
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/inverters.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/inverters.png)
 
 **Function:** Converts **DC power (from batteries/solar panels) into AC power** for household appliances.
 
@@ -394,7 +394,7 @@ Before we put everything together there are some more details we need to work ou
 
 Wiring **solar panels** and **batteries** in series or parallel affects the **voltage and current** of the system. Understanding the differences helps in designing an efficient **12V solar power system**.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/parallel-series.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/parallel-series.png)
 
 #### Parallel vs. Series Wiring for Solar Panels
 
@@ -571,7 +571,7 @@ To detemine what size wire to use it’s best to use an online or phone based vo
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/volt-drop-12v.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/volt-drop-12v.jpg)
 
 #### Examples of Wire Sizing in a 12V System
 
@@ -704,7 +704,7 @@ Now that we’ve reviewed the basics of how the system fits together again, let�
 
 ##### MC4 Connectors
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/mc4.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/mc4.png)
 
 Important: MC4 connectors are shaped different for positive and negative poles, make sure you know if you are connecting to a positive or negative wire before crimping on a connector.
 
@@ -743,7 +743,7 @@ TODO: explain 2 different types of ring terminals.
 4. Use a **heat gun or lighter** to shrink the insulation, sealing the connection.
 5. Bolt the terminal onto the battery post.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/ring-terminal.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/ring-terminal.jpg)
 
 - **For Screw Terminals (Some Charge Controllers):**
 
@@ -788,7 +788,7 @@ Use properly rated fuses** between the battery and charge controller.
 5. Secure the ring terminal to the chassis using a **bolt or self-tapping screw**.
 6. Ensure the connection is **clean, tight, and free of paint or rust**.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/Car-Grounds.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/Car-Grounds.jpg)
 
 **Safety Tips:  
 Use the same gauge wire as the main battery cables** for grounding.  
@@ -809,7 +809,7 @@ Proper positioning of solar panels is **critical** for maximizing energy product
 
 #### 2\. Solar Panel Angle (Tilt) for Maximum Output
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/pv-tilt.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/pv-tilt.png)
 
 The **tilt angle** should be adjusted based on latitude and seasons:
 
@@ -843,7 +843,7 @@ A well-organized **solar power system** is not only more **efficient and easier 
 
 ### Keeping a Solar Installation Neat
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/neat.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/neat.jpg)
 
 A messy install can lead to **power loss, troubleshooting difficulties, and safety risks.** Keep your system organized with these tips:
 
@@ -877,7 +877,7 @@ A solar installation is exposed to **sun, rain, wind, dust, and extreme temperat
 - **If placed outside, use a NEMA-rated enclosure** (e.g., **NEMA 3R or NEMA 4X** for outdoor electrical protection).
 - **Provide adequate airflow** around components to prevent overheating.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/outdoor-box.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems/main/images/outdoor-box.png)
 
 #### Battery Bank
 
