@@ -20,7 +20,7 @@
 title: "Small Solar Power Systems Zine"
 email: solarworkshop@proton.me
 description: ""
-baseurl: "/Small-Solar-Power-Systems-Zine" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://solarworkshop.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 domain: solarworkshop.github.io
 
