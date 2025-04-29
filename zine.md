@@ -6,7 +6,15 @@ nav_order: 0
 
 # Intro to Small Solar Power Systems Zine
 
-<details open markdown="block">
+![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
+
+version 0.1.1
+
+This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.
+
+For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)
+
+<details markdown="block">
   <summary>
     Table of contents
   </summary>
@@ -14,13 +22,6 @@ nav_order: 0
 1. TOC
 {:toc}
 </details>
-
-![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
-version 0.1.1
-
-This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.
-
-For digital version and more resources visit [linktr.ee/solarworkshop](https://linktr.ee/solarworkshop)
 
 ## Introduction
 
