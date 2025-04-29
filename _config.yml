@@ -26,6 +26,7 @@ domain: solarworkshop.github.io
 
 # Build settings
 theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.10.1
 plugins: ['jekyll-feed']
 
 kramdown:
