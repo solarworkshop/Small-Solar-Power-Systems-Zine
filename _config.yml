@@ -34,6 +34,8 @@ aux_links:
   - '/zine.html'
   Workshop Handout:
   - '/handout.html'
+  Planning Checklist:
+  - '/checklist.html'
 
 kramdown:
   toc_levels: 1..2

@@ -87,17 +87,17 @@ Let’s try to explain some key electrical concepts using the analogy of water f
 
 When water flows through a pipe, increasing or decreasing either the size of the pipe or the flow rate of the water will accordingly increase or decrease the ammount of water you get out of the end of the pipe. Let’s look at three electrical concepts and how they relate to the water in the pipe:
 
-**Voltage** (V_)_ - (measured in **volts**, represented as V) is the electrical potential, or size of the pipe. It’s not exactly correct, but it helps to think of it as a bigger pipe means there’s a bigger potential amount of water that could flow through, and a higher voltage the larger potential for electricity you have.
+**Voltage** ($$V$$) - (measured in **volts**, represented as $$V$$) is the electrical potential, or size of the pipe. It’s not exactly correct, but it helps to think of it as a bigger pipe means there’s a bigger potential amount of water that could flow through, and a higher voltage the larger potential for electricity you have.
 
 Voltage can also be helpful to think about in terms of compatability of different components in a circuit. A circuit with components rated for different voltages will not work and may cause damage or fires. Components even of the same voltage that are meant for AC or DC power (which will be covered later) also cannot be mixed. For example, pretty much everything in a vehicle is 12 volts DC, while most everything in your house is 120 volts AC. 
 
-**Current** (I) - (measured in **amps**, represented as A) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more eletricity you have.
+**Current** ($$I$$) - (measured in **amps**, represented as $$A$$) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more eletricity you have.
 
-**Power** (P) - (measured in **watts**, represented as W) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
+**Power** ($$P$$) - (measured in **watts**, represented as $$W$$) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
 
 _Bonus that you probably won’t use for our purposes but you might as well know:_
 
-**Resistance** (R) - (measured in **ohms**, represented as Ω) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
+**Resistance** ($$R$$) - (measured in **ohms**, represented as $$Ω$$) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
 
 ## Power Formula
 
@@ -112,7 +112,7 @@ $$Watts (W) = Volts (V) \times Amps (A)$$
 
 All you do to get power (watts) is multiple voltage (volts) by current (amps). Wattage tells you how much electricity something will use without knowing the volts or amps.
 
-The power formula also allows you to find voltage if you have current and power (_V = P/I_) or current if you have voltage and power (I = P/V).
+The power formula also allows you to find voltage if you have current and power $$V = P/I$$ or current if you have voltage and power $$I = P/V$$.
 
 ### Power Formula in Practice
 
@@ -120,11 +120,11 @@ Let’s see why this formula is useful. Suppose you have a USB charger that says
 
 ## Adding the Hours Measure
 
-When designing a **small solar power system**, it’s essential to understand **Amp-Hours** (Ah) and **Watt-Hours** (Wh) to measure battery capacity and energy consumption.
+When designing a **small solar power system**, it’s essential to understand **Amp-Hours** (Ah) and **Watt-Hours** ($$Wh$$) to measure battery capacity and energy consumption.
 
-### Amp-Hours (Ah)
+### Amp-Hours
 
-An **Amp-Hour** (Ah) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
+An **Amp-Hour** ($$Ah$$) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
 
 $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
@@ -137,15 +137,15 @@ $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
 However, this depends on **battery efficiency and discharge rate**.
 
-### Watt-Hours (Wh)s
+### Watt-Hours
 
-A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a system can deliver over time**. Since power is measured in watts (W), Watt-Hours indicate the total energy available.
+A **Watt-Hour** ($$Wh$$) is a measure of **energy**. It tells you **how much power a system can deliver over time**. Since power is measured in watts ($$W$$), Watt-Hours indicate the total energy available.
 
-#### **Formula:**
+#### Formula:
 
 $$WattHours (Wh) = Volts (V) \times AmpHours (Ah)$$
 
-#### **Example:**
+#### Example:
 
 - A **12V 100Ah battery** has: 
 
@@ -245,7 +245,7 @@ A **multimeter** is an essential tool for measuring **DC voltage** in a small so
 A small solar power system consists of several key components that work together to **capture, store, and distribute electricity**. Understanding these components is essential for designing an efficient and reliable system.
 
 
-### 1\. Solar Panels (Photovoltaic Modules)
+## 1\. Solar Panels (Photovoltaic Modules)
 
 **Function:** Convert sunlight into DC electricity.
 
@@ -253,7 +253,7 @@ A small solar power system consists of several key components that work together
 - Rated by **wattage (W)**, indicating power output in ideal sunlight.
 - Types: **Monocrystalline, Polycrystalline, Thin-Film** (varying efficiency & cost).
 
-### 2\. Charge Controller
+## 2\. Charge Controller
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/charge-controllers.jpg)
 
@@ -262,7 +262,7 @@ A small solar power system consists of several key components that work together
 - **PWM (Pulse Width Modulation):** Basic and budget-friendly. 
 - **MPPT (Maximum Power Point Tracking):** More efficient, extracts more power.
 
-### 3\. Battery
+## 3\. Battery
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/batteries.png)
 
@@ -271,7 +271,7 @@ A small solar power system consists of several key components that work together
 - **Lead-Acid (AGM, Gel):** Affordable but lower lifespan.
 - **Lithium-Ion (LiFePO₄):** More efficient, longer-lasting, but higher cost.
 
-### 4\. Inverter
+## 4\. Inverter
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/inverters.png)
 
@@ -283,7 +283,7 @@ A small solar power system consists of several key components that work together
 
 
 (See **Pure vs. Modified Sine Wave Inverters** in the **Sourcing Components** section later for more details about how each of these work.)
-### 5\. Wiring and Fuses
+## 5\. Wiring and Fuses
 
 **Function:** Safely connects and protects system components.
 
@@ -292,7 +292,7 @@ A small solar power system consists of several key components that work together
 
 - **Connectors (MC4, Anderson, etc.)** ensure secure wiring.
 
-### 6\. Optional Components
+## 6\. Optional Components
 
 - **Battery Monitor:** Tracks battery voltage and charge level.
 - **Solar Disconnects:** Safety switches for maintenance.
@@ -302,10 +302,10 @@ A small solar power system consists of several key components that work together
 
 This is an example of how you would plan and figure out the components needed for a system that can run two ham radios and a light.
 
-### Step 1: Determine Total Power Needs
+## Step 1: Determine Total Power Needs
 
 1. List all radios and accessories.
-2. Find each device’s **power rating (W)** and **operating hours per day**.
+2. Find each device’s **power rating ($$W$$)** and **operating hours per day**.
 3. Use the formula:
 
 $$Total Energy (Wh) = ∑(Power(W) × Hours Per Day)$$
@@ -314,52 +314,50 @@ This is the sum of the watt hours of each device.
 
 **Example Setup:**
 
-| **Device** | **Power (W)** | **Hours per Day** | **Energy (Wh)** |
+| **Device** | **Power ($$W$$)** | **Hours per Day** | **Energy ($$Wh$$)** |
 | --- | --- | --- | --- |
 | HF Transceiver | 50W | 3h  | 150Wh |
 | VHF/UHF Radio | 25W | 4h  | 100Wh |
 | LED Light | 10W | 5h  | 50Wh |
 | **Total Energy Needed** |     |     | **300Wh/day** |
 
-### Step 2: Choose a Solar Panel
+## Step 2: Choose a Solar Panel
 
-- Find your **average sunlight hours** (there are websites where you can look this up, in the mid-atlantic its 3.5 - 4 peak sunlight hours per day).
-- Use the formula:
+Find your **average sunlight hours** (there are websites where you can look this up, in the mid-atlantic its 3.5 - 4 peak sunlight hours per day).
 
-Solar Panel Size (W) = Daily Energy (Wh) / Sunlight Hours
+Use the formula:
 
-**Example:  
-**For **300Wh/day** and **5 sunlight hours**: 300Wh / 5h = 60W
+$$Solar Panel Size (W) = {Daily Energy (Wh) \over Sunlight Hours}$$
 
-**Use a 100W solar panel** for extra capacity and cloudy days.
+Example: For **300Wh/day** and **5 sunlight hours**: $${300Wh \over 5h} = 60W$$
 
-### Step 3: Select a Battery
+Use a 100W solar panel for extra capacity and cloudy days.
 
-- Convert **Wh to Ah** for a **12V battery**:
+## Step 3: Select a Battery
 
-Battery Capacity(Ah) = Daily Energy (Wh) / Battery Voltage (V)
+Convert $$Wh$$ to $$Ah$$ for a 12V battery:
 
-**Example:** 300Wh / 12V = 25Ah
+$$Battery Capacity(Ah) = {Daily Energy (Wh) \over Battery Voltage (V)}$$
 
-**Use a 50Ah deep-cycle battery** to ensure reliable backup power.
+Example: $${300Wh \over 12V} = 25Ah$$
+
+Use a 50Ah deep-cycle battery** to ensure reliable backup power.
 
 ### Step 4: Pick a Charge Controller
 
-- Prevents overcharging and regulates power.
-- Use the formula:
+Use the formula:
 
-Charge Controller (A) = Solar Panel (W) / Battery Voltage (V)
+$$Charge Controller (A) = {Solar Panel (W) \over Battery Voltage (V)}$$
 
-**Example:**
+Example: $${100W \over 12V} = 8.3A$$
 
-100W / 12V = 8.3A
-
-**Use a 10A or 15A charge controller** for safety.
+Use a 10A or 15A charge controller for safety.
 
 ### Step 5: Consider Extra Power for Accessories
 
-- If running **a laptop, fan, or additional radios**, increase **battery size** to **75Ah–100Ah**.
-- If using **higher power modes (SSB, FM, digital)**, allow extra power margin.
+If running a laptop, fan, or additional radios, increase battery size to 75Ah–100Ah.
+
+If using higher power modes (SSB, FM, digital), allow extra power margin.
 
 ### Recommended Components for Ham Radios
 
@@ -374,15 +372,15 @@ Charge Controller (A) = Solar Panel (W) / Battery Voltage (V)
 
 Before we put everything together there are some more details we need to work out. We need to determine what were wiring in parallel or series, the type and size of the wire, and what fuses or breakers well need.
 
-### Parallel vs. Series
+## Parallel vs. Series
 
 Wiring **solar panels** and **batteries** in series or parallel affects the **voltage and current** of the system. Understanding the differences helps in designing an efficient **12V solar power system**.
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/parallel-series.png)
 
-#### Parallel vs. Series Wiring for Solar Panels
+### Parallel vs. Series Wiring for Solar Panels
 
-##### Parallel Wiring (Same Voltage, More Current)
+#### Parallel Wiring (Same Voltage, More Current)
 
 - **How It Works:** Connect all **positive terminals** together and all **negative terminals** together.
 - **Effect:** **Voltage stays the same**, but **current (amperage) adds up**.
@@ -397,14 +395,14 @@ Wiring **solar panels** and **batteries** in series or parallel affects the **vo
 | Panel 2 | 12V | 8.3A | 100W |
 | **Total (Parallel)** | **12V** | **16.6A** | **200W** |
 
-###### How to Use Solar Y-Splitters in Parallel Installation
+##### How to Use Solar Y-Splitters in Parallel Installation
 
 Solar Y-splitters are **two-to-one connectors** that allow you to **combine multiple solar panels in parallel** easily. They typically come in **MC4-compatible** versions with:
 
 - **One male and two female connectors** (for positive connections).
 - **One female and two male connectors** (for negative connections).
 
-##### Series Wiring (More Voltage, Same Current)
+#### Series Wiring (More Voltage, Same Current)
 
 - **How It Works:** Connect the **positive terminal of one panel** to the **negative terminal of the next**.
 - **Effect:** **Voltage adds up**, but **current stays the same**.
@@ -419,9 +417,9 @@ Solar Y-splitters are **two-to-one connectors** that allow you to **combine mult
 | Panel 2 | 12V | 8.3A | 100W |
 | **Total (Series)** | **24V** | **8.3A** | **200W** |
 
-#### Parallel vs. Series Wiring for Batteries
+### Parallel vs. Series Wiring for Batteries
 
-##### Parallel Battery Wiring (Same Voltage, More Capacity)
+#### Parallel Battery Wiring (Same Voltage, More Capacity)
 
 - **How It Works:** Connect all **positive terminals** together and all **negative terminals** together.
 - **Effect:** **Voltage remains the same**, but **amp-hours (Ah) increase**.
@@ -436,7 +434,7 @@ Solar Y-splitters are **two-to-one connectors** that allow you to **combine mult
 | Battery 2 | 12V | 50Ah | 600Wh |
 | **Total (Parallel)** | **12V** | **100Ah** | **1,200Wh** |
 
-#### Series Battery Wiring (More Voltage, Same Capacity)
+### Series Battery Wiring (More Voltage, Same Capacity)
 
 - **How It Works:** Connect the **positive terminal of one battery** to the **negative terminal of the next**.
 - **Effect:** **Voltage adds up**, but **Ah remains the same**.
@@ -451,7 +449,7 @@ Solar Y-splitters are **two-to-one connectors** that allow you to **combine mult
 | Battery 2 | 12V | 50Ah | 600Wh |
 | **Total (Series)** | **24V** | **50Ah** | **1,200Wh** |
 
-#### Choosing Parallel vs. Series
+### Choosing Parallel vs. Series
 
 | **Factor** | **Parallel** | **Series** |
 | --- | --- | --- |
@@ -461,7 +459,7 @@ Solar Y-splitters are **two-to-one connectors** that allow you to **combine mult
 | **Cable Thickness** | Thicker cables needed for high amps | Thinner cables possible due to lower amps |
 | **Charge Controller Type** | PWM (low cost) or MPPT | MPPT (required for series solar panels) |
 
-#### Hybrid (Series-Parallel) Wiring
+### Hybrid (Series-Parallel) Wiring
 
 For **larger systems**, both **series and parallel** wiring can be combined.
 
@@ -473,42 +471,41 @@ For **larger systems**, both **series and parallel** wiring can be combined.
 
 This balances **higher voltage for efficiency** while maintaining **high current output**.
 
-### Types of DC Wire and Their Uses
+## Types of DC Wire and Their Uses
 
 This list is not exhaustive, but here are the common types of wire used in solar applications. You will likely need a combination of types and sizes of wires to build your system correctly
 
-#### 1\. THHN (Thermoplastic High Heat Nylon-Coated) Wire
+### THHN (Thermoplastic High Heat Nylon-Coated) Wire
 
-- **Use:** Common in industrial and home wiring, also be used in solar power systems.
-- **Advantages:**
-- Heat-resistant and durable.
-- Has an outer nylon coating for extra protection.
+Common in industrial and home wiring, also be used in solar power systems.
 
-#### 3\. Welding Cable
+> **Advantages:** Heat-resistant and durable; has an outer nylon coating for extra protection.
 
-- **Use:** Heavy-duty **high-current applications**, such as battery banks and inverters.
-- **Advantages:**
-- Extremely flexible and resistant to wear.
-- Can handle very high currents with minimal voltage drop.
-- **Best For:** Connecting batteries, inverters, and large solar setups.
+### Welding Cable
 
-#### 5\. PV (Photovoltaic) Wire
+Heavy-duty high-current applications, such as battery banks and inverters.
 
-- **Use:** Designed **specifically for solar panel connections**.
-- **Advantages:**
-- UV-resistant and weatherproof.
-- Rated for high-voltage DC power transmission.
-- **Best For:** Connecting solar panels to charge controllers.
+> **Advantages:** Extremely flexible and resistant to wear; can handle very high currents with minimal voltage drop.
 
-#### 6\. Automotive Wire (GPT, GXL, TXL)
+**Best For:** Connecting batteries, inverters, and large solar setups.
 
-- **Use:** Found in **12V DC automotive and mobile power systems**.
-- **Advantages:**
-- Flexible and heat-resistant.
-- Insulated for protection in engine compartments.
-- **Best For:** Mobile solar power systems, vehicles, trailers.
+### PV (Photovoltaic) Wire
 
-#### Wire Types at a Glance
+Designed specifically for solar panel connections.
+
+> **Advantages:** UV-resistant and weatherproof; rated for high-voltage DC power transmission.
+
+**Best For:** Connecting solar panels to charge controllers.
+
+### Automotive Wire (GPT, GXL, TXL)
+
+Found in 12V DC automotive and mobile power systems.
+
+> **Advantages:** Flexible and heat-resistant; insulated for protection in engine compartments.
+
+**Best For:** Mobile solar power systems, vehicles, trailers.
+
+## Wire Types at a Glance
 
 | **Wire Type** | **Best Used For** | **Advantages** |
 | --- | --- | --- |
@@ -517,7 +514,7 @@ This list is not exhaustive, but here are the common types of wire used in solar
 | PV Wire | Solar panel connections | UV/weather-resistant, safe for high voltage |
 | Automotive Wire | 12V DC systems, mobile setups | Flexible, heat-resistant |
 
-### Wire Size and Voltage Drop
+## Wire Size and Voltage Drop
 
 Proper wire sizing is **critical** in a solar power system to **prevent overheating, reduce power loss, and maintain efficiency**. One of the biggest factors in choosing wire size is **voltage drop**, which occurs when electricity travels through the wire and loses energy due to resistance.
 
@@ -528,7 +525,6 @@ Wire sizes are measured in AWG (American Wire Guage). The lower the guage number
 In order to properly size your wires you will need to know the maximum possible current (amps) running through them.
 
 - For solar panels just add up the amprage of each panel (or use the power formula to convert watts to amps).
-- TODO: battery to battery, charge controller, inverter, loads (should this be it’s own section?)
 
 This chart shows **wire gauges (AWG 00 to 18)** along with their **ampacity (current capacity)** and **common uses** in **DC solar power systems**.
 
@@ -547,40 +543,26 @@ This chart shows **wire gauges (AWG 00 to 18)** along with their **ampacity (cur
 | **16 AWG** | 0.051 | 10-15A | **Small loads (USB ports, 12V accessories)** |
 | **18 AWG** | 0.040 | 5-10A | **Low-current sensors, monitoring equipment** |
 
-#### Determining Appropriate Wire Size
+### Determining Appropriate Wire Size
 
 To detemine what size wire to use it’s best to use an online or phone based voltage drop calculator where you plug in the voltage, current (amps), and size of the wire run, and it gives you back the thickness you need to keep the voltage drop within the 3% maximum recommended drop range. You can also consult this table:
 
-#### Maximum One-Way Wire Distance (Feet) for 3% Voltage Drop
+### Maximum One-Way Wire Distance (Feet) for 3% Voltage Drop
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/volt-drop-12v.jpg)
 
-#### Examples of Wire Sizing in a 12V System
+## Fuses and Breakers
 
-**Example 1: Solar Panel to Charge Controller**
-
-- **System:** 12V, 10A, 20 feet
-- **Voltage drop target:** 3% of 12V = 0.36V
-- **Wire needed:** **10 AWG**
-
-**Example 2: Battery to Inverter (High Power)**
-
-- **System:** 12V, 100A, 5 feet
-- **Voltage drop target:** 3% of 12V = 0.36V
-- **Wire needed:** **2/0 AWG** (very thick)
-
-### Fuses and Breakers
-
-#### What Are Fuses and Breakers?
+### What Are Fuses and Breakers?
 
 Fuses and circuit breakers are essential safety components in a **12V solar power system**. They protect the wiring and components from damage due to overcurrent conditions (such as short circuits or overloads).
 
 - **Fuses**: Single-use devices that "blow" or melt when the current exceeds a certain limit. Once blown, they must be replaced.
 - **Breakers**: Reusable switches that "trip" when overcurrent is detected. They can be reset manually.
 
-#### Where to Place Fuses and Breakers in a 12V Solar System
+### Where to Place Fuses and Breakers in a 12V Solar System
 
 Fuses and breakers should be installed **as close as possible to the power source** (battery or charge controller) to protect wiring and devices downstream. Common locations include:
 
@@ -603,7 +585,7 @@ $${1000W \over 12V} = 83A$$
 
 $${83A \times 1.25} = 104A$$
 
-So use /a **100A-125A fuse**.
+So use a **100A-125A fuse**.
 
 **4\. Between the Battery and Fuse Block (for 12V Accessories)**
 
@@ -618,7 +600,7 @@ So use /a **100A-125A fuse**.
 - **Fridge (10A circuit):** Use a **15A fuse**.
 - **USB ports (3A circuit):** Use a **5A fuse**.
 
-#### How to Determine Proper Fuse Size
+### How to Determine Proper Fuse Size
 
 1. Identify the wire gauge and ampacity (maximum current capacity).
 2. Find the maximum current draw of the device.
@@ -627,7 +609,8 @@ So use /a **100A-125A fuse**.
 
 **Example:** A 12V fridge draws **8A continuously**.
 
-- **8A × 1.25 = 10A fuse**
+$$8A \times 1.25 = 10A fuse$$
+
 - If using **14 AWG wire** (which handles **15A max**), a **10A fuse** is safe.
 
 <!-- TOC --><a name="putting-everything-together"></a>
@@ -635,13 +618,13 @@ So use /a **100A-125A fuse**.
 
 Now you know the components you’re using, the size or the wires and fuses or breakers needed, and how the batteries and panels will be laid out. So let’s put it all together, by reviewing the function of each component, how they are connected, and where they are place.
 
-#### 1\. Solar Panels
+### 1\. Solar Panels
 
 - **Function**: Capture sunlight and generate DC electricity.
 - **Connection**: Wired in **parallel** for 12V systems (voltage stays the same, current increases).
 - **Placement**: Install on a roof, ground mount, or pole mount **facing the sun** for maximum exposure.
 
-#### 2\. Solar Charge Controller
+### 2\. Solar Charge Controller
 
 - **Function**: Regulates voltage and current from panels to prevent battery overcharging.
 - **Connection**:
@@ -650,7 +633,7 @@ Now you know the components you’re using, the size or the wires and fuses or b
 - **Fuse Between Battery and Controller (Close to Battery)**
 - **Placement**: **Close to the battery** (within **3-5 feet**) to minimize voltage drop.
 
-#### 3\. Battery Bank
+### 3\. Battery Bank
 
 - **Function**: Stores solar energy for use when sunlight is unavailable.
 - **Connection**:
@@ -658,7 +641,7 @@ Now you know the components you’re using, the size or the wires and fuses or b
 - **Battery Fuse (Near Battery Positive Terminal)**
 - **Placement**: In a **well-ventilated area** (especially for lead-acid batteries).
 
-#### 4\. Inverter (Optional – For AC Loads)
+### 4\. Inverter (Optional – For AC Loads)
 
 - **Function**: Converts 12V DC to 120V AC for household appliances.
 - **Connection**:
@@ -666,7 +649,7 @@ Now you know the components you’re using, the size or the wires and fuses or b
 - **Inverter AC Output → Appliances**
 - **Placement**: **Close to the battery** (within **3-5 feet**) to handle high current draw efficiently.
 
-#### 5\. 12V Distribution (Fuse Block for DC Loads)
+### 5\. 12V Distribution (Fuse Block for DC Loads)
 
 - **Function**: Distributes 12V DC power to lights, USB ports, and other accessories.
 - **Connection**:
@@ -680,13 +663,13 @@ Now that we’ve reviewed the basics of how the system fits together again, let�
 
 **Important:** When you strip wires and insert them in a screw terminal or crimp a ring terminal on a wire, make sure you strip just enough to fit so that no bare wire is exposed. Exposed bare wire increasing the chances of the wire becoming damaged or shorting / sparking.
 
-#### 1\. Connecting Solar Panels
+### 1\. Connecting Solar Panels
 
 **Wiring Type:** Solar panels typically use **MC4 connectors** on their output wires. If the panel has bare wires, they may connect to the charge controller using **ring terminals, spade terminals, or screw terminals**.
 
-#### How to Prepare the Wires
+### How to Prepare the Wires
 
-##### MC4 Connectors
+#### MC4 Connectors
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/mc4.png)
 
@@ -711,7 +694,7 @@ Use an MC4 tool** to disconnect MC4 connectors—pulling by hand can damage them
 **Check polarity (positive & negative)** before connecting to the charge controller.  
 **Use a fuse or breaker** between the solar panel and charge controller for protection.
 
-#### 2\. Connecting the Charge Controller to the Battery
+### 2\. Connecting the Charge Controller to the Battery
 
 **Wiring Type:** Battery cables usually connect via **ring terminals** or **spade terminals**, secured with bolts or screw terminals on the charge controller.
 
@@ -740,7 +723,7 @@ Always connect the battery to the charge controller BEFORE connecting solar pane
 Use properly rated fuses** between the battery and charge controller.  
 **Avoid over-tightening bolts**, which can damage terminals.
 
-#### 3\. Connecting the Battery to the Inverter
+### 3\. Connecting the Battery to the Inverter
 
 **Wiring Type:** Large-gauge cables with **ring terminals**, secured to the battery and inverter using bolts.
 
@@ -758,7 +741,7 @@ Use properly rated fuses** between the battery and charge controller.
 **Install a fuse close to the battery** on the positive wire.  
 **Ensure ring terminals are tight but not over-tightened.**
 
-#### 4\. Grounding a Solar System in a Vehicle
+### 4\. Grounding a Solar System in a Vehicle
 
 **Why Ground to a Vehicle?  
 **Grounding the system to the vehicle’s chassis **helps prevent electrical faults** and provides a stable voltage reference.
@@ -779,11 +762,11 @@ Use the same gauge wire as the main battery cables** for grounding.
 **Avoid using small screws**—a solid bolt connection is best.  
 **Check the connection regularly** for corrosion or looseness.
 
-### Solar Panel Placement Considerations
+## Solar Panel Placement Considerations
 
 Proper positioning of solar panels is **critical** for maximizing energy production. The angle, direction, and impact of shading all affect efficiency.
 
-#### 1\. Solar Panel Positioning
+### 1\. Solar Panel Positioning
 
 **Direction (Azimuth Angle):**
 
@@ -791,7 +774,7 @@ Proper positioning of solar panels is **critical** for maximizing energy product
 - **In the Southern Hemisphere** → Face panels **North**
 - **If adjustable**, panels can be slightly turned **Southeast or Southwest** to optimize for morning or afternoon sun, depending on energy usage patterns.
 
-#### 2\. Solar Panel Angle (Tilt) for Maximum Output
+### 2\. Solar Panel Angle (Tilt) for Maximum Output
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/pv-tilt.png)
 
@@ -804,11 +787,11 @@ The **tilt angle** should be adjusted based on latitude and seasons:
 - **Spring/Fall:** **Set to Latitude** (Balanced approach).
 - **Vertical Mounting (90° Angle, Walls/Fences): Worst for solar production**, but useful in snowy areas to prevent snow buildup.
 
-#### 3\. Effects of Shading on Solar Panels
+### 3\. Effects of Shading on Solar Panels
 
 **Shading is one of the biggest performance killers** in a solar system. Even a small amount of shade on one panel **can drastically reduce power output**, especially in **series-connected panels**.
 
-#### Why Shading Reduces Power:
+### Why Shading Reduces Power:
 
 - **Partial shading can cause major losses.** If just **one cell** in a panel is shaded, it can reduce the entire panel’s output.
 - **Series-connected panels suffer the most**—one shaded panel limits the entire string’s current.
@@ -825,13 +808,13 @@ The **tilt angle** should be adjusted based on latitude and seasons:
 
 A well-organized **solar power system** is not only more **efficient and easier to maintain**, but it also ensures **safety and durability** in various environmental conditions. Below are best practices for **cable management, weather protection, and battery storage.**
 
-### Keeping a Solar Installation Neat
+## Keeping a Solar Installation Neat
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/neat.jpg)
 
 A messy install can lead to **power loss, troubleshooting difficulties, and safety risks.** Keep your system organized with these tips:
 
-#### Cable Management Suggestions
+### Cable Management Suggestions
 
 - **Use proper wire sizes** to minimize voltage drop and prevent overheating.
 - **Label all wires** (e.g., PV+, PV-, BAT+, BAT-) for easy identification.
@@ -894,24 +877,24 @@ Proper battery storage is helpful for safety, ventilation, and temperature contr
 
 While solar is ideal, sometimes you’re only going out for a weekend and can do with a single battery charge from an AC wall charger ahead of time, and leave the panels at home (or build a system without them). If you are installing a solar setup (or standalone house battery) in a vehicle or RV you can charge your battery while driving using the power generated by your vehicles alternator.
 
-### AC Wall Chargers
+## AC Wall Chargers
 
 AC chargers are **plugged into a standard household outlet** (120V AC) and convert power to **12V DC** to charge a battery. You can purchase and use one of these to charge your batteries at home before you go on an outting where you need power.
 
-#### Standard Battery Chargers
+### Standard Battery Chargers
 
 - Fast charging, good for deep-cycle batteries.
 - Often rated at **10A-50A** output.
 - Smart chargers can **prevent overcharging** by switching to trickle mode when full.
 
-#### Trickle Chargers & Battery Maintainers
+### Trickle Chargers & Battery Maintainers
 
 - Designed for **long-term maintenance** rather than fast charging.
 - Typically **1A-3A output** to **slowly top off a battery**.
 - Ideal for **seasonal vehicles (RVs, boats, motorcycles)** that sit unused.
 - Many models **automatically shut off** or adjust current to prevent overcharging.
 
-#### Smart Multi-Stage Chargers
+### Smart Multi-Stage Chargers
 
 - Uses **Bulk, Absorption, and Float** charging stages for optimal battery health.
 - Works with **lead-acid, AGM, lithium, and gel** batteries.
@@ -924,7 +907,7 @@ AC chargers are **plugged into a standard household outlet** (120V AC) and conve
 - Set to the **correct battery type** (AGM, lithium, etc.).
 - Monitor **charging progress**; most chargers have an LED or display showing charge percentage.
 
-### Charging from a Vehicle Alternator
+## Charging from a Vehicle Alternator
 
 A vehicle’s **alternator** generates DC power while the engine runs, which can be used to charge **house batteries in an RV, camper, or off-grid setup**.
 
@@ -940,7 +923,7 @@ A vehicle’s **alternator** generates DC power while the engine runs, which can
 
 - Two Ways to Charge from an Alternator**
 
-#### Using a Battery Isolator (Basic Setup):
+### Using a Battery Isolator (Basic Setup):
 
 - Allows alternator to charge a second battery while **keeping it separate from the vehicle’s starter battery**.
 - Uses a **Voltage-Sensing Relay (VSR)** to connect batteries only when the engine is running.
@@ -952,7 +935,7 @@ A vehicle’s **alternator** generates DC power while the engine runs, which can
 2. **Run heavy-duty wire** from isolator to house battery **(fused near both ends)**.
 3. **Ground the system** properly to the vehicle’s chassis.
 
-#### Using a DC-DC Charger (Better for Lithium & Deep-Cycle Batteries)
+### Using a DC-DC Charger (Better for Lithium & Deep-Cycle Batteries)
 
 - A **DC-DC charger (20A-50A models)** ensures the house battery gets the correct charging voltage.
 - Essential for **Lithium (LiFePO4) batteries**, since alternators don’t always reach their needed voltage.
@@ -969,7 +952,7 @@ A vehicle’s **alternator** generates DC power while the engine runs, which can
 <!-- TOC --><a name="pv-panels-in-depth"></a>
 # PV Panels In Depth
 
-### Monocrystalline vs. Polycrystalline Solar Panels
+## Monocrystalline vs. Polycrystalline Solar Panels
 
 Solar panels are commonly made using two types of silicon cells—**Monocrystalline** and **Polycrystalline**. Each has advantages and trade-offs:
 
@@ -982,25 +965,25 @@ Solar panels are commonly made using two types of silicon cells—**Monocrystall
 | **Cost**                | Higher initial cost                       | Lower initial cost                         |
 | **Lifespan**            | Longer (~25–30+ years)                    | Shorter (~20–25 years)                     |
 
-#### When to Use Monocrystalline
+### When to Use Monocrystalline
   - Ideal if your roof space is limited.
   - Maximizes efficiency and long-term reliability.
   - Better overall performance, especially in hotter climates.
 
 > **Choose Monocrystalline** if you have limited space, need high efficiency, and prioritize long-term reliability.  
 
-#### When to Use Polycrystalline
+### When to Use Polycrystalline
   - Best choice if budget is the main concern.
   - Good if you have plenty of available installation space.
   - Practical for larger arrays where cost matters more than peak efficiency.
 
 > **Choose Polycrystalline** if budget is your primary concern and you have plenty of installation space.
 
-### Testing PV Panels & Understanding Their Labels
+## Testing PV Panels & Understanding Their Labels
 
 It's important to test the voltage and amperage of your solar panels to ensure they are still functional and operating close to their rated specifications. You can also learn a lot from reading the label on the back of the panel.
 
-#### How to Read a Solar Panel Label
+### How to Read a Solar Panel Label
 
 Most solar panels have a label on the back that provides **electrical specifications**. Here’s how to interpret key values:
 
@@ -1019,9 +1002,9 @@ Most solar panels have a label on the back that provides **electrical specificat
 - **Imp is the working current**, while **Isc is the max current when shorted**.
 - **If a used panel’s actual output is significantly lower than these values, it may be damaged**.
 
-#### How to Test a Used Solar Panel
+### How to Test a Used Solar Panel
 
-##### **A. Testing Open Circuit Voltage (Voc) with a Multimeter**
+#### **A. Testing Open Circuit Voltage (Voc) with a Multimeter**
 
 **What it tells you:** If the panel is still producing power and if there’s damage to internal connections.
 
@@ -1035,7 +1018,7 @@ Most solar panels have a label on the back that provides **electrical specificat
 **Good result:** A reading **close to Voc** (e.g., if Voc is 22V, you should measure around 20V-22V in full sun).  
 **Bad result:** If the voltage is **significantly lower** (e.g., under 15V for a 22V Voc panel), the panel may have **bad cells or internal damage**.
 
-##### **B. Testing Short Circuit Current (Isc) with a Multimeter**
+#### **B. Testing Short Circuit Current (Isc) with a Multimeter**
 
 **What it tells you:** If the panel is capable of producing its maximum rated current.
 
@@ -1055,7 +1038,7 @@ Most solar panels have a label on the back that provides **electrical specificat
 **Good result:** Output **at least 70-80% of rated power** under good sunlight.  
 **Bad result:** If power is much lower than expected, the panel has **cell degradation, dirt, or internal failure**.
 
-#### **Troubleshooting Low Solar Panel Output**
+### **Troubleshooting Low Solar Panel Output**
 
 - **Check for Shading** – Even a small amount of shade **drastically reduces power output**.
 - **Inspect for Cracks or Delamination** – Damaged panels often underperform.
@@ -1066,16 +1049,16 @@ Most solar panels have a label on the back that provides **electrical specificat
 <!-- TOC --><a name="charge-controllers-in-depth"></a>
 # Charge Controllers In Depth
 
-### Why Do You Need a Solar Charge Controller?
+## Why Do You Need a Solar Charge Controller?
 
 Solar panels often produce voltages higher than what batteries safely accept, especially in direct sunlight or cold temperatures. A charge controller adjusts this voltage and current, preventing battery damage and extending battery lifespan.
 
-### PWM vs. MPPT Charge Controllers
+## PWM vs. MPPT Charge Controllers
 
 There are two main types of charge controllers: **PWM** (Pulse Width Modulation) and **MPPT** (Maximum Power Point Tracking).  
 While both do the same basic job, they work very differently and are suited to different types of systems.
 
-#### PWM (Pulse Width Modulation) Charge Controllers
+### PWM (Pulse Width Modulation) Charge Controllers
 
 - **How It Works**:  
   A PWM controller connects the solar panel directly to the battery when charging. As the battery charges up, the controller rapidly "pulses" the connection on and off to maintain the correct voltage without overcharging.
@@ -1092,7 +1075,7 @@ While both do the same basic job, they work very differently and are suited to d
   
 - **Cons**: Wastes potential power if panel voltage is much higher than battery voltage; less efficient in cold or cloudy weather
 
-#### MPPT (Maximum Power Point Tracking) Charge Controllers
+### MPPT (Maximum Power Point Tracking) Charge Controllers
 
 - **How It Works**:  
   An MPPT controller is more sophisticated. It constantly measures the output of the panels and finds the **maximum power point** — the optimal combination of voltage and current to produce the most power.  
@@ -1110,7 +1093,7 @@ While both do the same basic job, they work very differently and are suited to d
 
 - **Cons**: More expensive; slightly more complex electronics (but still very reliable).
 
-#### Summary Table
+### Summary Table
 
 | Feature | PWM Controller | MPPT Controller |
 |:--------|:---------------|:----------------|
@@ -1120,33 +1103,33 @@ While both do the same basic job, they work very differently and are suited to d
 | **Panel-to-Battery Voltage** | Must be matched closely | Panel voltage can be much higher |
 | **Performance in Cold/Cloudy Weather** | Lower | Much better |
 
-#### Quick Example
+### Quick Example
 
 Suppose you have a 200W solar panel rated at 18V and a 12V battery:
 - A **PWM controller** would force the panel down to 12V, wasting the difference in voltage.
 - An **MPPT controller** would keep using the full 18V, converting it efficiently to deliver more amps into your battery — meaning you get almost the full 200W available.
 
-### Other Charge Controller Considerations
+## Other Charge Controller Considerations
 
-#### Voltage and Current Ratings
+### Voltage and Current Ratings
 - Ensure your charge controller matches your battery bank’s voltage (12V, 24V, or 48V).
 - Check the maximum current rating (amps) to accommodate your solar panels’ combined current output.
 
-#### Battery Compatibility
+### Battery Compatibility
 - Make sure the controller supports your battery chemistry (lead-acid, AGM, lithium).
 - Many controllers offer customizable charging profiles for different battery types.
 
-#### Load Control & Low Voltage Disconnect (LVD)
+### Load Control & Low Voltage Disconnect (LVD)
 - Many controllers have terminals to power DC loads directly, automatically disconnecting them if the battery voltage gets too low.
 
-#### Temperature Compensation
+### Temperature Compensation
 - Adjusts charging voltage according to battery temperature, prolonging battery life.
 - Important for lead-acid and AGM batteries in climates with large temperature variations.
 
-#### Remote Monitoring and Display
+### Remote Monitoring and Display
 - LCD screens, smartphone apps, or computer interfaces help you track system performance easily.
 
-### Proper Sizing of a Charge Controller
+## Proper Sizing of a Charge Controller
 
 Follow these steps to choose the right size controller:
 
@@ -1161,14 +1144,14 @@ Follow these steps to choose the right size controller:
    Match battery bank and controller voltage (12V, 24V, or 48V).
 
 
-### Installation & Safety Tips
+## Installation & Safety Tips
 
 - Mount your controller close to your battery bank to minimize voltage drop.
 - Always use proper fuses or circuit breakers between panels, controller, and batteries.
 - Ensure proper ventilation around the controller to prevent overheating.
 - Regularly inspect connections and terminals for corrosion, dirt, or looseness.
 
-#### Common Mistakes to Avoid
+### Common Mistakes to Avoid
 
 - Using a PWM controller with high-voltage panels, causing efficiency losses.
 - Overloading your charge controller by exceeding its rated amps.
@@ -1178,29 +1161,29 @@ Follow these steps to choose the right size controller:
 <!-- TOC --><a name="batteries-in-depth"></a>
 # Batteries In Depth
 
-### Understanding Battery Measurements
+## Understanding Battery Measurements
 
 Batteries are the heart of a small solar power system. Knowing how to read and understand their ratings is critical for designing, using, and maintaining your system properly. Here are the key measurements and what they mean:
 
-#### **Depth of Discharge (DoD)**
+### **Depth of Discharge (DoD)**
 - How much energy you can use before needing to recharge.
 - Lead-acid batteries recommend 50% DoD; lithium batteries allow 80–90% DoD safely.
 
-#### **State of Charge (SoC)**
+### **State of Charge (SoC)**
 - How full a battery is at any moment, usually shown as a percentage.
 
-#### **C-Rate**
+### **C-Rate**
 - How fast you can charge or discharge a battery relative to its total capacity.
 - Example: 1C = full discharge in 1 hour; 0.5C = full discharge in 2 hours.
 
-#### **Cycle Life**
+### **Cycle Life**
 - The number of complete charge/discharge cycles a battery can undergo before its capacity significantly declines.
 
-#### **Voltage**
+### **Voltage**
 - Common battery system voltages: 12V, 24V, and 48V.
 - Higher voltage systems (24V/48V) are more efficient for larger solar arrays and inverters.
 
-### Battery Chemistries
+## Battery Chemistries
 
 ### Lead-Acid Batteries (Flooded, AGM, and Gel)**
 
@@ -1225,7 +1208,7 @@ Batteries are the heart of a small solar power system. Knowing how to read and u
 
 **Downsides:** Heavy, shorter lifespan, lower efficiency than lithium.
 
-#### Lithium Iron Phosphate (LiFePO4)
+### Lithium Iron Phosphate (LiFePO4)
 
 - **Most efficient battery type (~95% charge efficiency).**
 - **Can be discharged to 80-90% DoD** without damage.
@@ -1236,7 +1219,7 @@ Batteries are the heart of a small solar power system. Knowing how to read and u
 
 **Downsides:** Higher upfront cost, **requires a BMS (Battery Management System)**.
 
-#### Common Types of Solar Batteries Summary
+### Common Types of Solar Batteries Summary
 
 | Battery Type | Pros | Cons | Typical Use |
 |--------------|------|------|-------------|
@@ -1245,7 +1228,7 @@ Batteries are the heart of a small solar power system. Knowing how to read and u
 | **Lithium-Ion (LiFePO4)** | Long lifespan (3000–5000+ cycles); high efficiency; lightweight; no maintenance | High upfront cost | Medium to large off-grid systems; mobile setups (vans, RVs) |
 | **Nickel-Based (NiMH, NiCd)** | Durable in extreme conditions; long cycle life | Expensive; less efficient; specialized use cases | Harsh climates; industrial setups |
 
-### Temperature Effects on Battery Performance
+## Temperature Effects on Battery Performance
 
 | **Battery Type** | **Cold Weather Performance (< 0°C / 32°F)** | **Hot Weather Performance (> 30°C / 86°F)** |
 | --- | --- | --- |
@@ -1256,7 +1239,7 @@ Batteries are the heart of a small solar power system. Knowing how to read and u
 - **In Cold Weather:** Lithium must be **above freezing to charge**. Some models have built-in heaters.
 - **In Hot Weather:** High temperatures cause **faster aging** in all battery types. Store batteries in shaded, ventilated areas.
 
-### Battery Charge Profiles & Charge Curves
+## Battery Charge Profiles & Charge Curves
 
 Each battery type follows a **specific charge curve** to optimize lifespan and performance. The charge profile describes the different phases of the battery charging, when and how long each of these phases happens, and the voltage applied for each.
 
@@ -1266,7 +1249,7 @@ Most charge controllers will have presets for common battery chemistries that yo
 
 Here is a little bit about common battery chemistries and their charging profiles:
 
-#### Lead-Acid Charging Stages
+### Lead-Acid Charging Stages
 
 1. **Bulk Charge (Fastest Stage)** → Charger delivers **constant current** until ~80% full.
 2. **Absorption Charge** → Voltage **stabilizes**, current tapers off.
@@ -1277,7 +1260,7 @@ Here is a little bit about common battery chemistries and their charging profile
 - 12V Flooded: **14.4V (Absorption), 13.6V (Float)**
 - 12V AGM/Gel: **14.2V (Absorption), 13.8V (Float)**
 
-#### Lithium Charging Stages
+### Lithium Charging Stages
 
 1. **Bulk Charge** → Rapid charging at **constant current** until ~99% full.
 2. **Taper Off** → Once full, charge current drops, but **no trickle charging needed**.
@@ -1288,30 +1271,30 @@ Here is a little bit about common battery chemistries and their charging profile
 
 **Important:** Lithium **does not need float charging**—overcharging shortens lifespan.
 
-### Battery Features to Consider
+## Battery Features to Consider
 
-#### Battery Chemistry
+### Battery Chemistry
 - Choose based on budget, maintenance tolerance, desired lifespan, and system needs.
 
-#### Capacity (Amp-Hours and Kilowatt-Hours)
+### Capacity (Amp-Hours and Kilowatt-Hours)
 - **Amp-Hours (Ah)** measure storage at a given voltage.
 - **Kilowatt-Hours (kWh)** measure total energy storage.
 - Formula: **kWh = (Ah × V) ÷ 1000**
 
-#### Physical Size and Weight
+### Physical Size and Weight
 - Lead-acid batteries are heavy; lithium batteries are lighter for the same capacity.
 - Ensure your structure or vehicle can handle the weight.
 
-#### Temperature Tolerance
+### Temperature Tolerance
 - Batteries degrade faster when exposed to extreme heat or cold.
 - Lithium batteries often have built-in protection but can’t be charged below freezing without special heaters.
 
-#### Maintenance Requirements
+### Maintenance Requirements
 - Flooded lead-acid batteries require regular watering and cleaning.
 - AGM, Gel, and Lithium batteries are maintenance-free.
 
 
-### Proper Battery Sizing
+## Proper Battery Sizing
 
 Steps to size your battery bank:
 
@@ -1344,30 +1327,30 @@ Steps to size your battery bank:
 <!-- TOC --><a name="inverters-in-depth"></a>
 # Inverters In Depth
 
-### Features to Consider
+## Features to Consider
 
-#### **Output Power Rating (Watts)**
+### **Output Power Rating (Watts)**
 - **Continuous Wattage**: The amount of power the inverter can provide continuously. 
 - **Surge Wattage**: Higher temporary output to handle startup loads of appliances (like fridges, motors, or pumps).
 
-#### **Input Voltage**
+### **Input Voltage**
 - Must match your battery system voltage (12V, 24V, or 48V).
 
-#### **Efficiency**
+### **Efficiency**
 - Higher efficiency inverters waste less energy as heat, reducing power loss. Look for efficiency ratings of 85–95% or higher.
 
-#### **Built-In Safety Features**
+### **Built-In Safety Features**
 - Automatic shutdown on overload or overheating.
 - Built-in fuses or circuit breakers for safety.
 - Short-circuit protection to prevent damage.
 
-#### **Remote Monitoring & Control**
+### **Remote Monitoring & Control**
 - Some modern inverters come with remote control or monitoring features, such as Bluetooth, Wi-Fi, or remote panels for easy management.
 
-#### **Noise Levels**
+### **Noise Levels**
 - Inverters with cooling fans can be noisy; consider fanless designs or quieter models if this matters for your application.
 
-### Proper Sizing of an Inverter
+## Proper Sizing of an Inverter
 
 Choosing the right size inverter depends on your load requirements:
 
@@ -1386,12 +1369,12 @@ For example:
 
 In this example, choose an inverter rated at least 500W continuous and ~1000W surge capacity.
 
-### Pure vs. Modified Sine Wave Inverters
+## Pure vs. Modified Sine Wave Inverters
 
 Inverters are a key part of many solar power systems. They **convert DC electricity** from your batteries into **AC electricity** that your home appliances can use.  
 There are two main types of inverters based on the kind of AC wave they produce: **Pure Sine Wave** and **Modified Sine Wave**.
 
-#### Pure Sine Wave Inverters
+### Pure Sine Wave Inverters
 
 - **Produces clean, smooth power** that closely matches the electricity from the utility grid.
 - **Safe for all electronics**, including sensitive devices like laptops; medical equipment; newer refrigerators; LED TVs; microwaves.
@@ -1400,7 +1383,7 @@ There are two main types of inverters based on the kind of AC wave they produce:
 **Pros**: Compatible with all devices; runs equipment cooler and quieter; reduces risk of damaging sensitive electronics.  
 **Cons**: More expensive than modified sine wave inverters.
 
-#### Modified Sine Wave Inverters
+### Modified Sine Wave Inverters
 
 - **Produces a rough, choppy power output** — not a smooth wave.
 - Works fine for **simple tools and appliances** like power drills; older TVs; some lights; simple pumps and motors.
@@ -1409,7 +1392,7 @@ There are two main types of inverters based on the kind of AC wave they produce:
 **Pros**: Much cheaper; good for simple, rugged applications.  
 **Cons**: May not run all electronics properly; can shorten the lifespan of certain devices.
 
-#### Which Inverter Should You Buy?
+### Which Inverter Should You Buy?
 
 - **If you plan to run sensitive electronics** (laptops, TVs, refrigerators, CPAP machines, etc.):  
   ➔ **Buy a Pure Sine Wave inverter**.
@@ -1428,7 +1411,7 @@ Using 12V DC devices in a solar setup is usually more efficient because you avoi
 
 A **12V fuse box** is essential for distributing power safely to multiple 12V loads (lights, fans, USB chargers, etc.) in a solar system. It prevents **overloads, short circuits, and fire hazards** by using appropriately rated fuses for each circuit.
 
-#### 1\. Choosing a 12V Fuse Box
+### 1\. Choosing a 12V Fuse Box
 
 **Types of Fuse Boxes:**
 
@@ -1442,13 +1425,13 @@ Number of Circuits:** Choose a fuse box with enough slots for all your 12V loads
 **Ground Bus Bar (Optional):** Some fuse blocks include a ground bus, which simplifies wiring.  
 **Cover:** Protects fuses from dust, moisture, and accidental contact.
 
-#### 2\. Choosing the Right Wire Gauge & Fuse Sizes
+### 2\. Choosing the Right Wire Gauge & Fuse Sizes
 
 **Wire size depends on the current (amps) each circuit draws.** The fuse should be **slightly larger** than the load’s operating current but never exceed the wire’s capacity.
 
 See the fuse and wire size sections above for me details.
 
-#### 3\. Wiring the 12V Fuse Box
+### 3\. Wiring the 12V Fuse Box
 
 **Components Needed:**
 
@@ -1458,9 +1441,9 @@ See the fuse and wire size sections above for me details.
 - **Ring Terminals** (for secure connections)
 - **Crimping Tool & Heat Shrink**
 
-### **Step-by-Step Wiring**
+## **Step-by-Step Wiring**
 
-#### **A. Connecting the Main Power Wires**
+### **A. Connecting the Main Power Wires**
 
 1. **Run a wire from the battery's positive terminal** (through a fuse or breaker) to the **input terminal** of the fuse box.
     1. **Use a 6-10 AWG wire** depending on total load.
@@ -1468,7 +1451,7 @@ See the fuse and wire size sections above for me details.
 2. **Connect the fuse box’s negative bus bar (if available) to the battery’s negative terminal** using a properly sized wire.
 3. If no negative bus bar exists, connect all device negatives to the battery’s negative post or vehicle chassis.
 
-#### **B. Wiring Individual Circuits**
+### **B. Wiring Individual Circuits**
 
 1. **Strip the wire ends** (~½ inch) for each 12V device.
 2. **Crimp ring terminals or spade connectors** onto the wire ends.
@@ -1477,20 +1460,20 @@ See the fuse and wire size sections above for me details.
     2. The **negative wire** connects to the fuse box’s **ground bus bar** or directly to the battery/chassis ground.
 4. **Insert the correct fuse** for each circuit.
 
-#### **C. Protecting & Organizing the Wires**
+### **C. Protecting & Organizing the Wires**
 
 1. **Use cable ties** to bundle wires neatly.
 2. **Label each circuit** to easily identify which fuse controls each device.
 3. **Secure the fuse box** in a dry, accessible location.
 
-#### **4\. Safety & Best Practices**
+### **4\. Safety & Best Practices**
 
 - **Use a main fuse (30A-100A) between the battery and the fuse box.**
 - **Avoid long wire runs** to minimize voltage drop (keep wires as short as possible).
 - **Do not exceed the wire’s amp rating**—if in doubt, use a larger gauge.
 - **Test each circuit** with a multimeter after wiring to ensure proper voltage.
 
-#### **Wiring Diagram**
+### **Wiring Diagram**
 
 \[ 12V Battery \] ---- (Main Fuse) ---- \[ Fuse Box \] ---- (Fused Circuits) ---- \[ Loads \]
 
@@ -1501,7 +1484,7 @@ Each **fused circuit** powers a **12V device**, and all negatives return to the 
 
 While **12V solar systems** are common for small setups like RVs, boats, and off-grid cabins, **24V, 48V, and higher-voltage systems** offer advantages for larger power needs. Choosing the right voltage depends on **power requirements, wire sizing, and component compatibility**.
 
-### **1\. Advantages & Disadvantages of Different System Voltages**
+## **1\. Advantages & Disadvantages of Different System Voltages**
 
 | **System Voltage** | **Best For** | **Advantages** | **Disadvantages** |
 | --- | --- | --- | --- |
@@ -1511,7 +1494,7 @@ While **12V solar systems** are common for small setups like RVs, boats, and off
 
 **General Rule:** **Higher voltage = less current = lower wire losses**.
 
-### **2\. Wire Sizing & Voltage Drop Considerations**
+## **2\. Wire Sizing & Voltage Drop Considerations**
 
 - **Higher-voltage systems (24V, 48V) allow thinner wires** because **current (amps) is lower** for the same power output.
 - Example:
@@ -1521,26 +1504,26 @@ While **12V solar systems** are common for small setups like RVs, boats, and off
 
 If using **longer cable runs**, higher voltages reduce losses and improve efficiency.
 
-### **3\. Solar Panel Configuration for Higher Voltage Systems**
+## **3\. Solar Panel Configuration for Higher Voltage Systems**
 
-#### **A. 12V System**
+### **A. 12V System**
 
 - Uses **12V panels (nominal 18V Vmp) in parallel** for higher current.
 - Panels stay **parallel** to keep voltage at 12V.
 
-#### **B. 24V System**
+### **B. 24V System**
 
 - Uses **two 12V panels in series** (or native 24V panels).
 - Keeps current lower while doubling voltage.
 
-#### **C. 48V System**
+### **C. 48V System**
 
 - Uses **four 12V panels in series** (or native 48V panels).
 - Ideal for reducing wire size and losses.
 
 **Important:** Charge controllers (MPPT or PWM) must match the **battery bank voltage**.
 
-### **4\. Battery Bank Considerations**
+## **4\. Battery Bank Considerations**
 
 - **12V Systems** → Single **12V batteries** in parallel for more capacity.
 - **24V Systems** → Two **12V batteries in series** (or 24V batteries).
@@ -1551,7 +1534,7 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 !!! **Battery Chargers & Inverters Must Match Battery Voltage** – A 12V inverter **won't work** on a 24V system!
 
-### **5\. Charge Controllers & Inverters for Different Voltages**
+## **5\. Charge Controllers & Inverters for Different Voltages**
 
 **PWM Controllers:** Only efficient if solar panel voltage closely matches battery voltage. Best for small 12V setups.  
 **MPPT Controllers:** Can step down higher panel voltages (e.g., 100V solar array to 24V or 48V battery). Best for **24V+ systems**.
@@ -1560,7 +1543,7 @@ If using **longer cable runs**, higher voltages reduce losses and improve effici
 
 **DC-DC Converters:** Used to step down voltage for **12V accessories** in a 24V or 48V system.
 
-### **6\. Safety & Regulations for Higher Voltages**
+## **6\. Safety & Regulations for Higher Voltages**
 
 - **48V+ systems are considered "high voltage"** and require proper insulation and safety precautions.
 - **Fuses & breakers** must be rated for the system voltage and installed at each major component.
@@ -1625,7 +1608,7 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 **Ratchet Wire Crimper (10-22 AWG)** – For smaller wiring connections (fuses, relays, etc.).  
 **Anderson Powerpole Crimper** – If using Powerpole connectors for accessories.
 
-### Solar Repair Go Kit
+## Solar Repair Go Kit
 
 If you're not building a system from scratch but want to have the essentials on hand, we recommend at bare minimum packing these items:
 
@@ -1648,9 +1631,10 @@ Battery powered soldering irons are relativley cheap, and if you find yourself r
 There are cheap (around \$30) soldering irons you can find online that will fit batteries from common widely used power tool brands, which is very handy.
 
 <!-- TOC --><a name="12v-solar-systems-budget-examples"></a>
+
 # 12V Solar Systems Budget Examples
 
-### **1\. Very Small 12V System (~$150 - $300)**
+### 1\. Very Small 12V System (~$150 - $300)
 
 **Shopping List:**
 
@@ -1669,7 +1653,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 
 **Total Cost:** **$150 - $300**
 
-### **2\. Small 12V System (~$350 - $500)**
+### 2\. Small 12V System (~$350 - $500)
 
 **Shopping List:**
 
@@ -1689,7 +1673,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 
 **Total Cost:** **$350 - $500**
 
-### **3\. Medium 12V System (~$500 - $650)**
+### 3\. Medium 12V System (~$500 - $650)
 
 **Shopping List:**
 
@@ -1709,7 +1693,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 
 **Total Cost:** **$500 - $650**
 
-### **4\. Medium 12V System 2 (~$650 - $750)**
+### 4\. Medium 12V System 2 (~$650 - $750)
 
 **Shopping List:**
 
@@ -1729,7 +1713,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 
 **Total Cost:** **$650 - $750**
 
-### **Battery Type Cost Comparison**
+### Battery Type Cost Comparison
 
 | **Battery Type** | **Capacity** | **Typical Cost** | **Best Use Case** | **Lifespan (Cycles)** |
 | --- | --- | --- | --- | --- |
@@ -1737,69 +1721,6 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 | **AGM (Absorbed Glass Mat)** | 50Ah-150Ah | $75 - $300 | Moderate use, no maintenance | ~500-800 cycles |
 | **LiFePO4 (Lithium Iron Phosphate)** | 50Ah-100Ah | $220 - $350 | Long-term off-grid, lightweight | ~2000-5000 cycles |
 
-<!-- TOC --><a name="beginner-solar-system-planning-checklist"></a>
-# Beginner Solar System Planning Checklist
-
-### Solar Panels
-
-- Are they the appropriate voltage for your system, especially if you're using a PWM charge controller?
-- Is the combined amperage lower than your charge controller’s input rating?
-- Do you know where and how you are mounting them (roof, ground, pole, rack)?
-- Do you have a spot that gets enough direct sun for most of the day?
-- If using multiple panels, are you wiring them in series, parallel, or series-parallel to achieve the desired voltage and amperage?
-- What size and type of wire do you need to connect them to the charge controller (consider voltage drop)?
-- Have you tested the panels with a multimeter before connecting them?
-- Do you have proper fusing or a breaker between the panels and the charge controller?
-
-### Charge Controller
-
-- Do you know if your charge controller is PWM or MPPT?
-- Do you know how to set or change the battery type and charging profile (AGM, lithium, flooded, etc.)?
-- Is your charge controller rated for the total voltage and current coming from the solar panels?
-- Do you have a place to mount the controller with adequate ventilation (not in a sealed box)?
-- Have you planned appropriate wire size between charge controller and battery bank?
-- Are you using a fuse or circuit breaker between the controller and the battery?
-
-### Battery
-
-- Do you know the battery chemistry (lead-acid, AGM, lithium, etc.)?
-- Do you understand the recommended Depth of Discharge (DoD) for your battery type?
-- Is the battery sized properly for your expected daily power use and backup needs?
-- Do you know the proper charging voltage settings for your battery chemistry?
-- Do you have a safe place to install the battery (dry, ventilated, out of extreme heat or cold)?
-- Are you protecting the battery bank with fuses or breakers?
-- Are your batteries secured against tipping, sliding, or vibration?
-
-### Inverter (if using one)
-
-- Is the inverter rated for the maximum load you expect to run?
-- Is it a Pure Sine Wave inverter if you plan to run sensitive electronics?
-- Have you sized the wire and fuse properly between the battery and inverter?
-- Do you have a manual shutoff switch for the inverter for safety?
-
-### Wire Sizing and Protection
-
-- Have you calculated the correct wire size for each part of the system based on current (amps) and distance (voltage drop)?
-- Are you using stranded wire (not solid) for DC circuits to prevent fatigue and breakage?
-- Are all your critical circuits fused or protected with circuit breakers close to the power source?
-- Are you labeling your wires and connections for easier maintenance later?
-
-
-### System Safety
-
-- Are you using properly rated fuses or breakers for each part of the system (panels, controller, batteries, inverter)?
-- Do you have a disconnect switch or method to shut down the system in case of emergency?
-- Have you checked that all connections are tight, clean, and corrosion-resistant?
-- Are you protecting battery terminals from accidental short circuits (covers, boots, etc.)?
-- Do you have basic fire protection nearby (such as a fire extinguisher rated for electrical fires)?
-
-
-### Other Important Considerations
-
-- Have you estimated your daily energy usage and matched your panel size and battery bank to meet it?
-- Are you planning for expansion if you think you'll add more panels or batteries later?
-- Have you allowed space for ventilation around batteries, inverters, and charge controllers?
-- Do you know how to monitor your system (basic meters, battery monitors, or smartphone apps)?
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTkyOTc1ODEwM119
 -->

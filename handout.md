@@ -20,13 +20,13 @@ This table provides the **maximum one-way wire run** (in feet) for a **3% voltag
 
 When water flows through a pipe, increasing or decreasing either the size of the pipe or the flow rate of the water will accordingly increase or decrease the ammount of water you get out of the end of the pipe. Let’s look at three electrical concepts and how they relate to the water in the pipe:
 
-**Voltage** (V_)_ - (measured in **volts**, represented as V) is the electrical potential, or size of the pipe. It’s not exactly correct, but it helps to think of it as a bigger pipe means there’s a bigger potential amount of water that could flow through, and a higher voltage the larger potential for electricity you have.
+**Voltage** ($$V$$) - (measured in **volts**, represented as V) is the electrical potential, or size of the pipe. It’s not exactly correct, but it helps to think of it as a bigger pipe means there’s a bigger potential amount of water that could flow through, and a higher voltage the larger potential for electricity you have.
 
-**Current** (I) - (measured in **amps**, represented as A) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more eletricity you have.
+**Current** ($$I$$) - (measured in **amps**, represented as A) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more eletricity you have.
 
-**Power** (P) - (measured in **watts**, represented as W) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
+**Power** ($$P$$) - (measured in **watts**, represented as W) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
 
-**Resistance** (R) - (measured in **ohms**, represented as Ω) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
+**Resistance** ($$R$$) - (measured in **ohms**, represented as Ω) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
 
 ## Formulas
 
@@ -40,15 +40,15 @@ $$Watts (W) = Volts (V) \times Amps (A)$$
 
 You can find voltage if you have current and power (_V = P/I_) or current if you have voltage and power (I = P/V).
 
-### Amp-Hours (Ah)
+### Amp-Hours 
 
-An **Amp-Hour** (Ah) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
+An **Amp-Hour** ($$Ah$$) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
 
 $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
-### Watt-Hours (Wh)s
+### Watt-Hours
 
-A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a system can deliver over time**. Since power is measured in watts (W), Watt-Hours indicate the total energy available.
+A **Watt-Hour ($$Wh$$)** is a measure of **energy**. It tells you **how much power a system can deliver over time**. Since power is measured in watts ($$W$$), Watt-Hours indicate the total energy available.
 
 ## Multimeter Layout
 
