@@ -4,7 +4,7 @@ title: 'Intro to Small Solar Power Systems Zine'
 nav_order: 0
 ---
 
-# Intro to Small Solar Power Systems Zine
+# Intro to Small Solar Power Systems
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
 
