@@ -2,13 +2,13 @@
 
 ## Basic Component Layout
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/basic-setup.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main./images/basic-setup.png)
 
 ## Voltage Drop Chart
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/volt-drop-12v.jpg)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main./images/volt-drop-12v.jpg)
 
 ## Key Electrical Concepts
 
@@ -52,7 +52,7 @@ A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a
 
 ## Multimeter Layout
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/multimeter.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main./images/multimeter.png)
 
 ## Measuring Voltage with a Multimeter
 
@@ -81,7 +81,7 @@ A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a
 Parallel Wiring: Same Voltage, More Current
 Series Wiring: More Voltage, Same Current
 
-![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/parallel-series.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main./images/parallel-series.png)
 
 ## Solar Panel Measurements
 
@@ -103,3 +103,6 @@ Series Wiring: More Voltage, Same Current
 | **State of Charge (SoC)**    | How full the battery currently is.                         | Percentage (%)          | Helps prevent over-discharge and ensures battery health.                 | Fully charged = 100%; fully empty = 0%                    |
 | **C-Rate** (Charge/Discharge Rate) | The speed at which a battery is charged or discharged relative to its capacity. | Number (1C, 0.5C, etc.) | Charging/discharging too fast can shorten battery life or cause damage.  | 1C: full charge/discharge in 1 hour; 0.5C: in 2 hours     |
 | **Cycle Life**               | Number of full charge/discharge cycles before battery capacity significantly decreases. | Number of cycles        | Indicates lifespan. Lithium generally has higher cycle life than lead-acid. | 500 cycles (typical lead-acid); 2000+ cycles (typical lithium) |
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMjE0NjQ2ODQ1XX0=
+-->
