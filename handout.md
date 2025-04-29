@@ -4,7 +4,7 @@ title: 'Workshop Handout'
 layout: minimal
 ---
 
-# Workshop Handout
+# Solar Workshop Handout
 
 Email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) if you want to get in touch.
 
