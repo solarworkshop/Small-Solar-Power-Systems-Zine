@@ -14,12 +14,14 @@ For digital version and more resources visit [solarworkshop.github.io](https://s
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
 
+<div class="newpage"></div>
 ## Voltage Drop Chart
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/volt-drop-12v.jpg)
 
+<div class="newpage"></div>
 ## Key Electrical Concepts
 
 When water flows through a pipe, increasing or decreasing either the size of the pipe or the flow rate of the water will accordingly increase or decrease the ammount of water you get out of the end of the pipe. Let’s look at three electrical concepts and how they relate to the water in the pipe:
@@ -34,59 +36,24 @@ When water flows through a pipe, increasing or decreasing either the size of the
 
 ## Formulas
 
-### Power
+**Power:** $$Power(W) = Voltage(V) \times Current(A)$$
 
-$$Power(P) = Voltage(V) \times Current(I)$$
+> You can find voltage if you have current and power $$V = P/I$$ or current if you have voltage and power $$I = P/V$$.
 
-It might also be useful to think of it or remember it by the units of measure like:
+**Amp-Hours:** $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
-$$Watts (W) = Volts (V) \times Amps (A)$$
+> Tells you how much current a battery can supply for **one hour** before it is depleted.
 
-You can find voltage if you have current and power (_V = P/I_) or current if you have voltage and power (I = P/V).
+**Watt-Hours:** $$WattHours (Wh) = Volts (V) \times AmpHours (Ah)$$
 
-### Amp-Hours 
+> Tells you **how much power a system can deliver over time**. Since power is measured in watts ($$W$$), Watt-Hours indicate the total energy available.
 
-An **Amp-Hour** ($$Ah$$) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
-
-$$AmpHours(Ah) = Current (A) \times Time (hours)$$
-
-### Watt-Hours
-
-A **Watt-Hour ($$Wh$$)** is a measure of **energy**. It tells you **how much power a system can deliver over time**. Since power is measured in watts ($$W$$), Watt-Hours indicate the total energy available.
-
+<div class="newpage"></div>
 ## Multimeter Layout
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/multimeter.png)
 
-## Measuring Voltage with a Multimeter
-
-#### Step 1: Set the Multimeter to DC Voltage Mode
-
-- Turn the dial to the **DC voltage (V⎓)** setting.
-- Select a voltage range **higher than expected**:
-- For a **12V battery**, set it to **20V DC** (if available).
-- For a **24V, 36v, or 48v system**, set it to **200V DC**.
-
-#### Step 2: Insert the Test Leads
-
-- Black probe → COM (Common) port
-- Red probe → V (Voltage) port
-
-#### Step 3: Check Polarity and Voltage
-
-- **Red probe** to the **positive (+) terminal**.
-- **Black probe** to the **negative (-) terminal**.
-- Read the display:
-- **Positive reading (e.g., 12.6V)** → Polarity is correct.
-- **Negative reading (e.g., -12.6V)** → Probes are reversed. Swap them to identify the correct polarity.
-
-## Parallel vs. Series
-
-Parallel Wiring: Same Voltage, More Current
-Series Wiring: More Voltage, Same Current
-
-![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/parallel-series.png)
-
+<div class="newpage"></div>
 ## Solar Panel Measurements
 
 | **Label Term** | **What It Means** | **Typical Values (Example for a 100W Panel)** |
@@ -98,6 +65,7 @@ Series Wiring: More Voltage, Same Current
 | **Short Circuit Current (Isc)** | The maximum current the panel can produce when shorted. | **5.5A - 6.5A** |
 | **Operating Voltage Range** | The panel’s recommended working range. | **12V (nominal) or 24V (nominal)** |
 
+<div class="newpage"></div>
 ## Battery Measurements
 
 | Measurement | Definition | Expressed As | Why It Matters | Example |
