@@ -1,6 +1,6 @@
 # Intro to Small Solar Power Systems
 
-![](.https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/basic-setup.png)
+![](https://raw.githubusercontent.com/solarworkshop/Small-Solar-Power-Systems-Zine/main/images/basic-setup.png)
 version 0.1.1
 
 This is a work in progress. Please email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) with any feedback or if you want to help.
@@ -1792,5 +1792,5 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 - Have you allowed space for ventilation around batteries, inverters, and charge controllers?
 - Do you know how to monitor your system (basic meters, battery monitors, or smartphone apps)?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU3OTg0NjddfQ==
+eyJoaXN0b3J5IjpbMTkyOTc1ODEwM119
 -->
