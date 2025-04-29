@@ -2,13 +2,13 @@
 
 ## Basic Component Layout
 
-![](file:///Users/p/Documents/solar%20zine/images/basic-setup.png)
+![](./images/basic-setup.png)
 
 ## Voltage Drop Chart
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
 
-![](file:///Users/p/Documents/solar%20zine/images/volt-drop-12v.jpg)
+![](./images/volt-drop-12v.jpg)
 
 ## Key Electrical Concepts
 
@@ -52,7 +52,7 @@ A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a
 
 ## Multimeter Layout
 
-![](file:///Users/p/Documents/solar%20zine/images/multimeter.png)
+![](./images/multimeter.png)
 
 ## Measuring Voltage with a Multimeter
 
@@ -81,7 +81,7 @@ A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a
 Parallel Wiring: Same Voltage, More Current
 Series Wiring: More Voltage, Same Current
 
-![](file:///Users/p/Documents/solar%20zine/images/parallel-series.png)
+![](./images/parallel-series.png)
 
 ## Solar Panel Measurements
 
