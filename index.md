@@ -119,12 +119,12 @@ _Bonus that you probably won’t use for our purposes but you might as well know
 
 There is one important relationship amung these concepts that will help you immensly in working on solar power projects (and probably your every day life if you ever look at electrical appliance labels). But that means we have to introduce a formula - the formula for power. Remember power is just the amount of water you get at the end of the pipe once you’ve adjusted the size of the pipe and the flow rate of the water.
 
-### $`Power(P) = Voltage(V) \times Current(I)`$
+#### $$Power(P) = Voltage(V) \times Current(I)$$
 
 
 It might also be useful to think of it or remember it by the units of measure like:
 
-### $`Watts (W) = Volts (V) \times Amps (A)`$
+#### $$Watts (W) = Volts (V) \times Amps (A)$$
 
 All you do to get power (watts) is multiple voltage (volts) by current (amps). Wattage tells you how much electricity something will use without knowing the volts or amps.
 
@@ -142,7 +142,7 @@ When designing a **small solar power system**, it’s essential to understand **
 
 An **Amp-Hour** (Ah) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
 
-### $`AmpHours(Ah) = Current (A) \times Time (hours)`$
+#### $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
 **Example:**
 
@@ -159,13 +159,13 @@ A **Watt-Hour (Wh)** is a measure of **energy**. It tells you **how much power a
 
 #### **Formula:**
 
-### $`WattHours (Wh) = Volts (V) \times AmpHours (Ah)`$
+#### $$WattHours (Wh) = Volts (V) \times AmpHours (Ah)$$
 
 #### **Example:**
 
 - A **12V 100Ah battery** has: 
 
-### $`12V \times 100Ah = 1,200Wh`$
+#### $$12V \times 100Ah = 1,200Wh$$
 
 This means the battery can **deliver 1,200 watts for 1 hour** or **100 watts for 12 hours** (under ideal conditions).
 
@@ -324,7 +324,7 @@ This is an example of how you would plan and figure out the components needed fo
 2. Find each device’s **power rating (W)** and **operating hours per day**.
 3. Use the formula:
 
-### $`Total Energy (Wh) = ∑(Power(W) × Hours Per Day)`$
+#### $$Total Energy (Wh) = ∑(Power(W) × Hours Per Day)$$
 
 This is the sum of the watt hours of each device.
 
@@ -615,9 +615,9 @@ Fuses and breakers should be installed **as close as possible to the power sourc
 - The **largest fuse/breaker in the system** due to the high current draw of inverters.
 - Install a fuse rated for **1.25× the inverter’s max current draw**. e.g., for a 1000W inverter at 12V:
 
-### $`{1000W \over 12V} = 83A`$
+#### $${1000W \over 12V} = 83A$$
 
-### $`{83A \times 1.25} = 104A`$
+#### $${83A \times 1.25} = 104A$$
 
 So use /a **100A-125A fuse**.
 

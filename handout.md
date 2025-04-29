@@ -26,11 +26,11 @@ When water flows through a pipe, increasing or decreasing either the size of the
 
 ### Power
 
-### $`Power(P) = Voltage(V) \times Current(I)`$
+#### $$Power(P) = Voltage(V) \times Current(I)$$
 
 It might also be useful to think of it or remember it by the units of measure like:
 
-### $`Watts (W) = Volts (V) \times Amps (A)`$
+#### $$Watts (W) = Volts (V) \times Amps (A)$$
 
 You can find voltage if you have current and power (_V = P/I_) or current if you have voltage and power (I = P/V).
 
@@ -38,7 +38,7 @@ You can find voltage if you have current and power (_V = P/I_) or current if you
 
 An **Amp-Hour** (Ah) is a unit that measures **electrical charge capacity** over time. It tells you how much current a battery can supply for **one hour** before it is depleted.
 
-### $`AmpHours(Ah) = Current (A) \times Time (hours)`$
+#### $$AmpHours(Ah) = Current (A) \times Time (hours)$$
 
 ### Watt-Hours (Wh)s
 
