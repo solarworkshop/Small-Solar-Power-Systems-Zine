@@ -28,9 +28,12 @@ domain: solarworkshop.github.io
 theme: just-the-docs
 plugins: ['jekyll-feed']
 
+kramdown:
+  toc_levels: 1..2
+
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
-  
+
 header_pages:
   - zine.md
   - handout.md

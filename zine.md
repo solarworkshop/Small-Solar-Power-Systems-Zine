@@ -2,33 +2,20 @@
 layout: page
 title: 'Intro to Small Solar Power Systems Zine'
 nav_order: 0
+back_to_top: true
+back_to_top_text: "Back to top"
 ---
 
 # Intro to Small Solar Power Systems
 
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
-
-- [Intro to Small Solar Power Systems](#intro-to-small-solar-power-systems)
-- [Electricity](#electricity)
-- [Overview of Solar Components](#overview-of-solar-components)
-- [Planning Your System Capacity](#planning-your-system-capacity)
-- [Planning Your System Wiring](#planning-your-system-wiring)
-- [Putting Everything Together](#putting-everything-together)
-- [Installation Longevity Considerations](#installation-longevity-considerations)
-- [Alternative Ways to Charge Batteries](#alternative-ways-to-charge-batteries)
-- [PV Panels In Depth](#pv-panels-in-depth)
-- [Charge Controllers In Depth](#charge-controllers-in-depth)
-- [Batteries In Depth](#batteries-in-depth)
-- [Inverters In Depth](#inverters-in-depth)
-- [Design and Wire a 12V Fuse Box](#design-and-wire-a-12v-fuse-box)
-- [**Considerations for Bigger (than 12V) Systems**](#considerations-for-bigger-than-12v-systems)
-- [**Tools, Connectors, and Other Hardware**](#tools-connectors-and-other-hardware)
-- [12V Solar Systems Budget Examples](#12v-solar-systems-budget-examples)
-- [Beginner Solar System Planning Checklist](#beginner-solar-system-planning-checklist)
-
-<!-- TOC end -->
-
-<!-- TOC --><a name="intro-to-small-solar-power-systems"></a>
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
 version 0.1.1
