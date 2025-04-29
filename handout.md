@@ -6,6 +6,10 @@ layout: minimal
 
 # Workshop Handout
 
+Email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) if you want to get in touch.
+
+For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)
+
 ## Basic Component Layout
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
