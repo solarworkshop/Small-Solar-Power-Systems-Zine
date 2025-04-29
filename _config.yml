@@ -17,7 +17,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Small Solar Power Systems Zine"
+title: "Solar Workshop"
 email: solarworkshop@proton.me
 description: ""
 baseurl: "/" # the subpath of your site, e.g. /blog
@@ -27,6 +27,10 @@ domain: solarworkshop.github.io
 # Build settings
 theme: minima
 plugins: ['jekyll-feed']
+
+header_pages:
+  - zine.md
+  - handout.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.

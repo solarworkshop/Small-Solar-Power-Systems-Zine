@@ -1,3 +1,8 @@
+---
+layout: page
+title: 'Workshop Handout'
+---
+
 # Workshop Handout
 
 ## Basic Component Layout
@@ -90,13 +95,9 @@ Series Wiring: More Voltage, Same Current
 
 ## Battery Measurements
 
-
-| Measurement           | Definition                                                   | Expressed As            | Why It Matters                                                           | Example                                                   |
+| Measurement | Definition | Expressed As | Why It Matters | Example |
 |-----------------------|--------------------------------------------------------------|-------------------------|--------------------------------------------------------------------------|-----------------------------------------------------------|
-| **Depth of Discharge (DoD)** | How much energy you can safely use before recharging.       | Percentage (%)          | Batteries last longer if not fully discharged. Lead-acid: ~50%; Lithium: ~80–90%. | Lead-acid: 50% DoD; Lithium: 80-90% DoD                   |
+| **Depth of Discharge (DoD)** | How much energy you can safely use before recharging.| Percentage (%) | Batteries last longer if not fully discharged. Lead-acid: ~50%; Lithium: ~80–90%. | Lead-acid: 50% DoD; Lithium: 80-90% DoD |
 | **State of Charge (SoC)**    | How full the battery currently is.                         | Percentage (%)          | Helps prevent over-discharge and ensures battery health.                 | Fully charged = 100%; fully empty = 0%                    |
 | **C-Rate** (Charge/Discharge Rate) | The speed at which a battery is charged or discharged relative to its capacity. | Number (1C, 0.5C, etc.) | Charging/discharging too fast can shorten battery life or cause damage.  | 1C: full charge/discharge in 1 hour; 0.5C: in 2 hours     |
 | **Cycle Life**               | Number of full charge/discharge cycles before battery capacity significantly decreases. | Number of cycles        | Indicates lifespan. Lithium generally has higher cycle life than lead-acid. | 500 cycles (typical lead-acid); 2000+ cycles (typical lithium) |
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjQ2ODQ1XX0=
--->

@@ -1,4 +1,8 @@
-# Workshop Outline
+---
+layout: page
+title: 'Workshop Outline'
+nav_exclude: true
+---
 
 ## Introduction
 
