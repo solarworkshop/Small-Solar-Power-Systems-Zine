@@ -29,11 +29,11 @@ By small we mean systems for powering lights, laptops, phones, radios, and the l
 
 ## Saftey
 
-I’ve often heard “I just don’t mess with electrical stuff because it scares me” so I want to touch on electrical saftey briefly first in hope that you feel empowered to play with eletricity and learn in a safe way. There is a lot more to this topic, but we’re going to touch on some basics as they pertain to small solar setups.
+Electricity is dangerous and can be scary. We'll touch on saftey briefly first in hopes that you feel empowered to play with eletricity and learn in a safe way. There is a lot more to this topic, but these are some basics as they pertain to small solar setups.
 
-First, it is good to have a healthy fear of electricity. It can be deadly and its really good at starting fires. However, when working with the relativley low DC current and voltage that we are it is very unlikely that you’ll be shocked ever.
+It is good to have a healthy fear of electricity. It can be deadly and its really good at starting fires. However, when working with the relativley low DC current and voltage that we are it is very unlikely that you’ll be shocked ever.
 
-Here are some basics that will ensure you are safe. If you’ve never worked with electricity before some of the concepts here may not make sense, but don’t worry they’ll be explained later on and then you can come back to this section.
+If you’ve never worked with electricity before some of the concepts here may not make sense, but don’t worry they’ll be explained later on and then you can come back to this section.
 
 - Keep longer exposed metal tools away from battery terminals, touching them to both will cause an arc and huge spark that can result in fragments of metal flying into your eyes.
 - For that reason it is typically recommended that you wear eye protection when doing this work, but most people don’t and you just have to be careful.
@@ -59,7 +59,7 @@ Electricity occurs due to the movement of electrons, which are negatively charge
 
 ## What Is a Circuit?
 
-A circuit is simply a pathway that allows electricity to flow from a power source (like a battery or solar panel), through wires and devices (such as lights, appliances, or other loads), and back to the power source.
+A circuit is a pathway that allows electricity to flow from a power source (like a battery or solar panel), through wires and devices (such as lights, appliances, or other loads), and back to the power source.
 
 For electricity to move and do useful work, the circuit must be complete — meaning there is a continuous path with no breaks. If the circuit is broken (like when a switch is turned off or a wire is disconnected), the flow of electricity stops.
 
@@ -71,19 +71,9 @@ At its core, a circuit includes three basic parts:
 
 - Load: Any device that uses the electricity (like a light bulb, fan, or pump).
 
-### How a Basic Circuit Works
-
-- Power flows from the positive terminal of the source.
-
-- Current moves through the wire to the load (doing work, like lighting a bulb).
-
-- Current returns to the negative terminal of the source, completing the loop.
-
-Think of it like water flowing through a hose: the pump (power source) pushes water (electricity) through the hose (wire), spins a water wheel (load), and then the water returns to the pump.
-
 ## Characteristic of Electricity
 
-Let’s try to explain some key electrical concepts using the analogy of water flowing through a pipe.
+Let’s try to wrap our heads around some key electrical concepts using the analogy of water flowing through a pipe.
 
 When water flows through a pipe, increasing or decreasing either the size of the pipe or the flow rate of the water will accordingly increase or decrease the ammount of water you get out of the end of the pipe. Let’s look at three electrical concepts and how they relate to the water in the pipe:
 
@@ -95,13 +85,15 @@ Voltage can also be helpful to think about in terms of compatability of differen
 
 **Power** ($$P$$) - (measured in **watts**, represented as $$W$$) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
 
+<small>
 _Bonus that you probably won’t use for our purposes but you might as well know:_
+</small>
 
 **Resistance** ($$R$$) - (measured in **ohms**, represented as $$Ω$$) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
 
 ## Power Formula
 
-There is one important relationship amung these concepts that will help you immensly in working on solar power projects (and probably your every day life if you ever look at electrical appliance labels). But that means we have to introduce a formula - the formula for power. Remember power is just the amount of water you get at the end of the pipe once you’ve adjusted the size of the pipe and the flow rate of the water.
+There is one important relationship amung these concepts that will help you immensly in working on solar power projects (and probably your every day life). But that means we have to introduce a formula - the formula for power. Remember power is just the amount of water you get at the end of the pipe once you’ve adjusted the size of the pipe and the flow rate of the water.
 
 $$Power(P) = Voltage(V) \times Current(I)$$
 
@@ -116,7 +108,13 @@ The power formula also allows you to find voltage if you have current and power 
 
 ### Power Formula in Practice
 
-Let’s see why this formula is useful. Suppose you have a USB charger that says it’s rated to 30 watts. We also know that USB devices are all 5 volts.
+This formula is super useful because when we're comparing power usage and power generation at multiple voltages and amprages (as we often do when working with solar power), power allows us to abstract away voltage and amprage and just focus on how much energy something is either consuming or generating. Many components like solar panels, computers, and lights (remember 60 watt bulbs?) are rated by power in watts.
+
+#### Phone Charger Example
+
+You have a usb phone charger plugged into your phone that you know uses 3 amps. You also know that almost all USB devices operate at 5 volts. You have a 12 volt battery that has a useable storage of 10 amp-hours. How long can the battery charge your phone? We need to learn about amp hours before we finish answering the question. For now let's just calculate how many watts your phone charger takes: 
+
+$$P = 5V \times 3A = 15W$$
 
 ## Adding the Hours Measure
 
@@ -166,6 +164,16 @@ This means the battery can **deliver 1,200 watts for 1 hour** or **100 watts for
 - **Estimating Energy Consumption:** Devices use **Wh** (e.g., a 50W fan for 5 hours = 250Wh).
 - **System Efficiency:** Inverters and other components affect how much of the stored **Wh** can actually be used.
 
+#### Phone Charger Example Again
+
+We calculated above that our phone charger consumes 15 watts. Now let's calculate how many watt-hours your battery can supply to the charger:
+
+$$Wh = 12V \times 10A = 120Wh$$
+
+Now to determine how many hours the battery can charge your phone, we divide the watt-hours of the battery by the wattage of the phone charger:
+
+$${120Wh \over 15W} = 8 hours$$
+
 ## AC vs. DC Power
 
 Electricity can flow in two different ways: **Alternating Current (AC)** and **Direct Current (DC)**. Both are used in electrical systems but have different characteristics and applications. You do not need to really know any of this for the rest of our purposes; besides that we will be using mostly DC unless otherwise specificed, and that AC and DC power are not interchangable or mixable.
@@ -186,7 +194,7 @@ AC power **changes direction periodically**, meaning the voltage alternates betw
 
 DC power **flows in only one direction**, with a constant voltage level. It is commonly used in **batteries, solar panels, and low-voltage electronics**.
 
-#### **Key Characteristics of DC:**
+#### Key Characteristics of DC:
 
 - Maintains a constant voltage level (does not alternate).
 - Efficient for storage in batteries.
@@ -238,11 +246,74 @@ A **multimeter** is an essential tool for measuring **DC voltage** in a small so
 - **Positive reading (e.g., 12.6V)** → Polarity is correct.
 - **Negative reading (e.g., -12.6V)** → Probes are reversed. Swap them to identify the correct polarity.
 
+### Measuring DC Amperage
+
+Measuring **DC current (amperage)** is useful when you're trying to understand how much current is flowing through a wire, for example from a solar panel to a charge controller, or from a battery to a load.
+
+##### Important: Measuring Amps Is Different from Measuring Volts
+- When measuring **voltage**, your multimeter is placed in **parallel** with the circuit.
+- When measuring **amperage**, the multimeter must be placed **in series** — meaning the current must actually flow through the multimeter.
+
+#### Steps to Measure DC Amperage
+
+1. **Turn Off the Power**
+   - Never connect a multimeter for amperage measurement with power already flowing.
+
+2. **Move the Red Probe to the Correct Port**
+   - Most multimeters have a dedicated port labeled **10A** or **A**. Use that one — not the standard voltage/resistance port.
+   - The black probe stays in **COM** as usual.
+
+3. **Set the Multimeter to DC Amps**
+   - Choose the **“A⎓”** or **“10A DC”** setting (not “mA” unless you’re measuring very small current).
+   - If your meter is auto-ranging, you're good. If not, start at the highest setting and work your way down.
+
+4. **Break the Circuit Where You Want to Measure**
+   - Physically disconnect one wire so you can insert the multimeter **in series**.
+   - Example: Disconnect the positive wire going from a solar panel to the charge controller.
+
+5. **Connect the Multimeter in Series**
+   - One probe goes to the power source side of the break, and the other to the load side.
+   - The current now flows **through the multimeter**.
+
+6. **Turn the Power On**
+   - The display will show the amount of current flowing in amps.
+
+### Checking Continuity
+
+**Continuity testing** helps you check whether electricity can flow through a wire, connection, switch, or circuit. It's a quick way to confirm that two points are electrically connected — or to find breaks in wiring.
+
+#### What Is Continuity?
+
+- **Continuity** means there is a complete, unbroken path for current to flow.
+- If the path is broken (e.g., damaged wire, poor connection), there is **no continuity**.
+- Multimeters test this by sending a small voltage through the probes and detecting whether it makes it through.
+
+#### When to Check Continuity
+
+- Testing wires or cables for breaks
+- Verifying connections between terminals or components
+- Checking switches (open/closed)
+- Confirming that fuses are still good
+- Testing solder joints or DIY connections
+
+
+#### How to Check Continuity
+
+1. **Turn Off Power to the Circuit**
+   - Never test continuity on a live (powered) circuit — it can damage the meter.
+
+2. **Set the Multimeter to Continuity Mode**: Look for the symbol that looks like a **sound wave** or **diode symbol**.
+
+3. **Touch the Probes Together**: This confirms your meter is working — it should beep or show “0” or very low resistance.
+
+4. **Test the Connection**: Touch one probe to each end of the wire, fuse, or connection you want to test.
+   - If there’s a continuous path, the meter will **beep** (or show close to 0 ohms).
+   - If the meter **does not beep**, there is no continuity — the wire or connection is likely broken.
 
 <!-- TOC --><a name="overview-of-solar-components"></a>
 # Overview of Solar Components
 
-A small solar power system consists of several key components that work together to **capture, store, and distribute electricity**. Understanding these components is essential for designing an efficient and reliable system.
+A small solar power system consists of several key components that work together to **capture, store, and distribute electricity**. We will review them briefly here then revisit them in more depth in later sections.
 
 
 ## 1\. Solar Panels (Photovoltaic Modules)
@@ -281,15 +352,12 @@ A small solar power system consists of several key components that work together
 - **Modified Sine Wave:** Cheaper but may not work with all devices.
 - Rated in **watts (W)** to match appliance power needs.
 
-
-(See **Pure vs. Modified Sine Wave Inverters** in the **Sourcing Components** section later for more details about how each of these work.)
 ## 5\. Wiring and Fuses
 
 **Function:** Safely connects and protects system components.
 
 - **Proper gauge wires** prevent voltage drop & overheating.
 - **Fuses and circuit breakers** protect against overcurrent.
-
 - **Connectors (MC4, Anderson, etc.)** ensure secure wiring.
 
 ## 6\. Optional Components
@@ -304,8 +372,8 @@ This is an example of how you would plan and figure out the components needed fo
 
 ## Step 1: Determine Total Power Needs
 
-1. List all radios and accessories.
-2. Find each device’s **power rating ($$W$$)** and **operating hours per day**.
+1. List all devices and accessories.
+2. Find each device’s **power rating ($$W$$)** and decided how many hours per day (**operating hours**) you will use it.
 3. Use the formula:
 
 $$Total Energy (Wh) = ∑(Power(W) × Hours Per Day)$$
@@ -329,9 +397,9 @@ Use the formula:
 
 $$Solar Panel Size (W) = {Daily Energy (Wh) \over Sunlight Hours}$$
 
-Example: For **300Wh/day** and **5 sunlight hours**: $${300Wh \over 5h} = 60W$$
+Example: For **300Wh/day** and **4 sunlight hours**: $${300Wh \over 3h} = 75W$$
 
-Use a 100W solar panel for extra capacity and cloudy days.
+Because PV panels don't usually come in 75 watts, we'll round up and say to use a 100W solar panel for extra capacity and cloudy days.
 
 ## Step 3: Select a Battery
 
@@ -341,21 +409,21 @@ $$Battery Capacity(Ah) = {Daily Energy (Wh) \over Battery Voltage (V)}$$
 
 Example: $${300Wh \over 12V} = 25Ah$$
 
-Use a 50Ah deep-cycle battery** to ensure reliable backup power.
+Keep in mind that most battery types should not be drawn down to 100% of what they're rated for. In this example let's pretend we're looking for an AGM battery that should only be drawn down 50%. So you'd need an AGM battery rated to at least 50Ah. And it's best to bump that up (say to 60Ah or 100Ah) if you want to ensure that you're system is reliable.
 
 ### Step 4: Pick a Charge Controller
 
-Use the formula:
+Charge controllers are usually rated by maximum amprage. Use this formula to determine how many amps you'll be passing through the charge controller:
 
 $$Charge Controller (A) = {Solar Panel (W) \over Battery Voltage (V)}$$
 
 Example: $${100W \over 12V} = 8.3A$$
 
-Use a 10A or 15A charge controller for safety.
+Use a 10A or 15A charge controller for safety or incase you want to add capacity.
 
 ### Step 5: Consider Extra Power for Accessories
 
-If running a laptop, fan, or additional radios, increase battery size to 75Ah–100Ah.
+If running a laptop, fan, or additional radios, increase battery size to 100Ah.
 
 If using higher power modes (SSB, FM, digital), allow extra power margin.
 
@@ -363,7 +431,7 @@ If using higher power modes (SSB, FM, digital), allow extra power margin.
 
 | **Component** | **Size** |
 | --- | --- |
-| **Solar Panel** | 100W–200W |
+| **Solar Panel** | 100W–300W |
 | **Battery** | 12V 40Ah–100Ah |
 | **Charge Controller** | 10A–15A |
 
@@ -395,7 +463,7 @@ Wiring **solar panels** and **batteries** in series or parallel affects the **vo
 | Panel 2 | 12V | 8.3A | 100W |
 | **Total (Parallel)** | **12V** | **16.6A** | **200W** |
 
-##### How to Use Solar Y-Splitters in Parallel Installation
+#### How to Use Solar Y-Splitters in Parallel Installation
 
 Solar Y-splitters are **two-to-one connectors** that allow you to **combine multiple solar panels in parallel** easily. They typically come in **MC4-compatible** versions with:
 
@@ -516,7 +584,7 @@ Found in 12V DC automotive and mobile power systems.
 
 ## Wire Size and Voltage Drop
 
-Proper wire sizing is **critical** in a solar power system to **prevent overheating, reduce power loss, and maintain efficiency**. One of the biggest factors in choosing wire size is **voltage drop**, which occurs when electricity travels through the wire and loses energy due to resistance.
+Proper wire sizing is critical in a solar power system to **prevent overheating, reduce power loss, and maintain efficiency**. One of the biggest factors in choosing wire size is **voltage drop**, which occurs when electricity travels through the wire and loses energy due to resistance.
 
 Voltage drop happens depending on the length of the wire, its thickness, and the voltage and current running through it. Wires that are too thin or run too long introduce more and more resistence, which causes the voltage to drop. This can impact performance or you system, but also can start fires as the electricity lost is displaced as heat.
 
@@ -526,7 +594,7 @@ In order to properly size your wires you will need to know the maximum possible 
 
 - For solar panels just add up the amprage of each panel (or use the power formula to convert watts to amps).
 
-This chart shows **wire gauges (AWG 00 to 18)** along with their **ampacity (current capacity)** and **common uses** in **DC solar power systems**.
+This chart shows wire gauges (AWG 00 to 18) along with their **ampacity (current capacity)** and common uses in DC solar power systems.
 
 | **AWG (Gauge)** | **Diameter (inches)** | **Ampacity (DC, Copper Wire)** | **Common Uses in Solar DC Systems** |
 | --- | --- | --- | --- |
@@ -653,29 +721,25 @@ Now you know the components you’re using, the size or the wires and fuses or b
 
 - **Function**: Distributes 12V DC power to lights, USB ports, and other accessories.
 - **Connection**:
-- **Battery → Fuse Block (With Main Fuse Between Them)**
+- **Battery or Charge Controller DC Out → Fuse Block (With Main Fuse Between Them)**
 - **Fuse Block → Individual Circuits (Lights, Fridge, etc.)**
 - **Placement**: **Near the battery** but accessible for easy fuse replacement.
 
-**Preparing the Wires and Making the Connections**
+# Preparing the Wires and Making the Connections
 
 Now that we’ve reviewed the basics of how the system fits together again, let’s go over step by step how to connect each component, including how to prepare the wires and various connectors.
 
 **Important:** When you strip wires and insert them in a screw terminal or crimp a ring terminal on a wire, make sure you strip just enough to fit so that no bare wire is exposed. Exposed bare wire increasing the chances of the wire becoming damaged or shorting / sparking.
 
-### 1\. Connecting Solar Panels
+## 1\. Connecting Solar Panels
 
 **Wiring Type:** Solar panels typically use **MC4 connectors** on their output wires. If the panel has bare wires, they may connect to the charge controller using **ring terminals, spade terminals, or screw terminals**.
 
-### How to Prepare the Wires
-
-#### MC4 Connectors
+### MC4 Connectors
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/mc4.png)
 
 Important: MC4 connectors are shaped different for positive and negative poles, make sure you know if you are connecting to a positive or negative wire before crimping on a connector.
-
-TODO: how to tell positive and negative apart, when to use.
 
 1. Assemble the components as shown above, sliding the screw on connector, outter cable ring, then gasket onto the wire.
 2. Strip **¼ inch** of insulation from the wire.
@@ -683,86 +747,140 @@ TODO: how to tell positive and negative apart, when to use.
 4. Insert the crimped pin into the MC4 plastic housing (male or female).
 5. Push until it clicks, ensuring a secure connection.
 
-- **For Bare Wire to Charge Controller (Screw Terminals):**
+### For Bare Wire to Charge Controller (Screw Terminals)
 
 1. Strip roughly ½ inch of insulation or however much will fully go into the charge controller and leave none showing from the end of the wire.
 2. Insert the bare wire into the charge controller terminal.
 3. Tighten the screw securely.
 
-**Safety Tips:  
+#### Safety Tips
 Use an MC4 tool** to disconnect MC4 connectors—pulling by hand can damage them.  
 **Check polarity (positive & negative)** before connecting to the charge controller.  
 **Use a fuse or breaker** between the solar panel and charge controller for protection.
 
-### 2\. Connecting the Charge Controller to the Battery
+## 2\. Connecting the Charge Controller to the Battery
 
 **Wiring Type:** Battery cables usually connect via **ring terminals** or **spade terminals**, secured with bolts or screw terminals on the charge controller.
 
-**How to Prepare the Wires:**
+### Ring Terminals
 
-- **For Ring Terminals (Recommended for Battery Connections):**
+There are two main types of ring terminals:
 
-TODO: explain 2 different types of ring terminals.
+#### Copper Ring Terminals
+
+- Require a special hyrodlic crimping tool or hammer crimping tool:
+- Copper ring connectors are more reliable and recommended if you can use them.
+- When the copper is pressed together properly with the copper wires the pressure creates a solid metal core that is very strong (see image of cross-section below).
+
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/copper-cross.png" width="60%">
+
+- Hydrolic crimpers are more reliable for creating solid crimps, but are more expensive then the hammer crimpers.
+
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hydrolic-crimper.png" width="50%" align="right">
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hammer-crimper.png" width="50%" align="right">
+
+#### Generic Ring Terminals
+
+- Can usually be crimped with standard wire stripping tool.
+- Typically made with a steel or brass base and plated with tin or nickel.
+- Often have colored plastic insulation sleeves for easier crimping.
+- Common in automotive or low-current applications.
+- Usually for smaller wire gauges (22–10 AWG).
+- Not ideal for high-current use — can heat up or fail under load.
+
+These are fine if you're building a small system, but we highly recommend investing in copper terminals and a tool to crimp them.
+
+![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/ring-terminal.jpg)
+
+#### How to Crimp Ring Terminals
 
 1. Strip **½ inch** of insulation from the end of the cable.
 2. Slide a **heat-shrink ring terminal** onto the wire.
 3. Crimp the terminal using a **heavy-duty crimper**.
-4. Use a **heat gun or lighter** to shrink the insulation, sealing the connection.
+4. Use a **heat gun or lighter** to shrink the heat shrink, sealing the connection.
 5. Bolt the terminal onto the battery post.
 
-![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/ring-terminal.jpg)
-
-- **For Screw Terminals (Some Charge Controllers):**
+### Screw Terminals (Some Charge Controllers)
 
 1. Strip **½ inch** of insulation.
 2. Insert the wire into the terminal.
 3. Tighten the screw until the wire is securely held.
 
-**Safety Tips:  
-Always connect the battery to the charge controller BEFORE connecting solar panels.  
-Use properly rated fuses** between the battery and charge controller.  
-**Avoid over-tightening bolts**, which can damage terminals.
+#### Safety Tips:  
+
+> Always connect the battery to the charge controller BEFORE connecting solar panels.  
+
+> Use properly rated fuses between the battery and charge controller.  
+**Avoid over-tightening bolts or screws**, which can damage terminals.
 
 ### 3\. Connecting the Battery to the Inverter
 
 **Wiring Type:** Large-gauge cables with **ring terminals**, secured to the battery and inverter using bolts.
 
-**How to Prepare the Wires:**
+#### Safety Tips:
 
-1. Strip **½ inch to 1 inch** of insulation from the end of the cable.
-2. Slide a **heat-shrink ring terminal** onto the wire.
-3. Crimp it tightly using a **hydraulic crimper or hammer crimp tool**.
-4. Use a **heat gun or lighter** to shrink the insulation over the connection.
-5. Bolt the ring terminals onto the battery and inverter.
+> Use properly sized cables** (too small = overheating).  
 
-**Safety Tips:**
-
-**Use properly sized cables** (too small = overheating).  
-**Install a fuse close to the battery** on the positive wire.  
-**Ensure ring terminals are tight but not over-tightened.**
+> Install a fuse close to the battery** on the positive wire.
+  
+> Ensure ring terminals are tight but not over-tightened.**
 
 ### 4\. Grounding a Solar System in a Vehicle
 
-**Why Ground to a Vehicle?  
-**Grounding the system to the vehicle’s chassis **helps prevent electrical faults** and provides a stable voltage reference.
+Grounding the system to the vehicle’s chassis helps prevent electrical faults and provides a stable voltage reference.
 
-**How to Ground the System:**
+#### How to Ground to a Vehicle
 
 1. Find a **bare metal point** on the vehicle’s chassis (a factory grounding point is best).
-2. Strip **½ inch** of insulation from the ground wire.
-3. Crimp a **ring terminal** onto the wire.
-4. Use a **heat gun or lighter** to shrink the insulation.
+2. Crimp on a ring terminal as described above.
 5. Secure the ring terminal to the chassis using a **bolt or self-tapping screw**.
 6. Ensure the connection is **clean, tight, and free of paint or rust**.
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/Car-Grounds.jpg)
 
-**Safety Tips:  
-Use the same gauge wire as the main battery cables** for grounding.  
-**Avoid using small screws**—a solid bolt connection is best.  
-**Check the connection regularly** for corrosion or looseness.
+#### Safety Tips: 
+ 
+> Use the same gauge wire as the main battery cables** for grounding.  
+> **Avoid using small screws**—a solid bolt connection is best.  
+> **Check the connection regularly** for corrosion or looseness.
 
-## Solar Panel Placement Considerations
+### 5\. Installing Fuses
+
+At this point all of your components should be connected! You're ready to install the fuses into the fuse holders in your system. To detemine what size fuse to put into each area, see the [Wiring and Fuses](#5-wiring-and-fuses) section.
+
+If you're using breakers instead, go ahead and turn on the breakers.
+
+### 6\. Setting Charge Controller Parameters
+
+Last step! It's critical to make sure your charge controller is charging your battery the way it wants to be charged to prevent damage to it. More on this will be in the [Batteries In Depth](#batteries-in-depth) section.
+
+### How to Program Your Charge Controller
+
+**Note:** Each brand is slightly different — always refer to the manual. But the general steps are similar:
+
+1. **Power on the Controller**
+   - Make sure it's connected to the battery (and solar if needed).
+
+2. **Enter the Settings Menu**
+   - Most controllers have a button/menu system or a mobile app.
+   - Look for options like `Battery Type`, `User Mode`, or `Settings`.
+
+3. **Select Battery Type**
+   - Choose from preset options: Flooded, AGM, Gel, or Lithium.
+   - Some advanced controllers have a **User-defined mode** for manual voltage settings.
+
+4. **Set or Confirm Charging Parameters**
+   - If you're in User mode, you’ll enter:
+     - Absorption Voltage
+     - Float Voltage
+     - (Optional) Equalization Voltage
+     - (Optional) Temperature Compensation
+
+5. **Save and Exit**
+   - Confirm changes and exit the menu.
+   - Some units require a long press or button hold to save.
+
+# Solar Panel Placement
 
 Proper positioning of solar panels is **critical** for maximizing energy production. The angle, direction, and impact of shading all affect efficiency.
 
@@ -1411,6 +1529,8 @@ Using 12V DC devices in a solar setup is usually more efficient because you avoi
 
 A **12V fuse box** is essential for distributing power safely to multiple 12V loads (lights, fans, USB chargers, etc.) in a solar system. It prevents **overloads, short circuits, and fire hazards** by using appropriately rated fuses for each circuit.
 
+![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/fuse-box.png)
+
 ### 1\. Choosing a 12V Fuse Box
 
 **Types of Fuse Boxes:**
@@ -1504,25 +1624,6 @@ While **12V solar systems** are common for small setups like RVs, boats, and off
 
 If using **longer cable runs**, higher voltages reduce losses and improve efficiency.
 
-## Solar Panel Configuration for Higher Voltage Systems
-
-### **A. 12V System**
-
-- Uses **12V panels (nominal 18V Vmp) in parallel** for higher current.
-- Panels stay **parallel** to keep voltage at 12V.
-
-### **B. 24V System**
-
-- Uses **two 12V panels in series** (or native 24V panels).
-- Keeps current lower while doubling voltage.
-
-### **C. 48V System**
-
-- Uses **four 12V panels in series** (or native 48V panels).
-- Ideal for reducing wire size and losses.
-
-**Important:** Charge controllers (MPPT or PWM) must match the **battery bank voltage**.
-
 ## Battery Bank Considerations
 
 - **12V Systems** → Single **12V batteries** in parallel for more capacity.
@@ -1603,7 +1704,6 @@ A proper solar installation requires a variety of **tools for wiring, mounting, 
 ## Recommended Crimpers
 
 **MC4 Crimping Tool** – Required for making custom solar cable connections  
-
 **Hydraulic Lug Crimper (10 AWG - 4/0 AWG)** – Best for large battery cables.  
 **Ratchet Wire Crimper (10-22 AWG)** – For smaller wiring connections (fuses, relays, etc.).  
 **Anderson Powerpole Crimper** – If using Powerpole connectors for accessories.
@@ -1634,93 +1734,15 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 
 # 12V Solar Systems Budget Examples
 
-### 1\. Very Small 12V System (~$150 - $300)
 
-**Shopping List:**
-
-**Solar Panel:** 50W-100W ($50 - $100)
-
-**Charge Controller:** 10A PWM ($15 - $30)
-
-**Battery:**
-
-- **Sealed Lead Acid (SLA):** 12V 35Ah-50Ah ($60 - $120)
-- **AGM:** 12V 35Ah-50Ah ($75 - $150)
-
-**Inverter (Optional):** 150W-300W ($25 - $50)
-
-**Wiring & Mounting Kit:** ($20 - $40)
-
-**Total Cost:** **$150 - $300**
-
-### 2\. Small 12V System (~$350 - $500)
-
-**Shopping List:**
-
-**Solar Panel:** 100W-200W ($100 - $200)
-
-**Charge Controller:** 20A PWM or small MPPT ($30 - $80)
-
-**Battery:**
-
-- **Sealed Lead Acid (SLA):** 12V 50Ah-100Ah ($100 - $200)
-- **AGM:** 12V 50Ah-100Ah ($150 - $300)
-- **LiFePO4:** 12V 50Ah ($220 - $280)
-
-**Inverter:** 300W-500W ($50 - $80)
-
-**Wiring & Accessories:** ($30 - $50)
-
-**Total Cost:** **$350 - $500**
-
-### 3\. Medium 12V System (~$500 - $650)
-
-**Shopping List:**
-
-**Solar Panel:** 200W-300W ($200 - $250)
-
-**Charge Controller:** 30A MPPT ($80 - $120)
-
-**Battery:**
-
-- **Sealed Lead Acid (SLA):** 12V 100Ah ($150 - $250)
-- **AGM:** 12V 100Ah ($200 - $300)
-- **LiFePO4:** 12V 100Ah ($280 - $350)
-
-**Inverter:** 500W-1000W Pure Sine Wave ($80 - $120)
-
-**Wiring & Accessories:** ($50 - $70)
-
-**Total Cost:** **$500 - $650**
-
-### 4\. Medium 12V System 2 (~$650 - $750)
-
-**Shopping List:**
-
-**Solar Panel:** 300W-400W ($250 - $350)
-
-**Charge Controller:** 40A MPPT ($100 - $140)
-
-**Battery:**
-
-- **Sealed Lead Acid (SLA):** 12V 100Ah-150Ah ($180 - $300)
-- **AGM:** 12V 100Ah-150Ah ($200 - $300)
-- **LiFePO4:** 12V 100Ah ($280 - $350)
-
-**Inverter:** 1,000W Pure Sine Wave ($120 - $160)
-
-**Wiring & Accessories:** ($80 - $100)
-
-**Total Cost:** **$650 - $750**
-
-### Battery Type Cost Comparison
-
-| **Battery Type** | **Capacity** | **Typical Cost** | **Best Use Case** | **Lifespan (Cycles)** |
-| --- | --- | --- | --- | --- |
-| **Sealed Lead Acid (SLA)** | 35Ah-150Ah | $60 - $300 | Budget setups, backup power | ~300-500 cycles |
-| **AGM (Absorbed Glass Mat)** | 50Ah-150Ah | $75 - $300 | Moderate use, no maintenance | ~500-800 cycles |
-| **LiFePO4 (Lithium Iron Phosphate)** | 50Ah-100Ah | $220 - $350 | Long-term off-grid, lightweight | ~2000-5000 cycles |
-
+| System Size           | Very Small ($150–$300)          | Small ($350–$500)               | Medium 1 ($500–$650)            | Medium 2 ($650–$750)            |
+|-----------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
+| **Solar Panel**       | 50W–100W ($50–$100)              | 100W–200W ($100–$200)           | 200W–300W ($200–$250)           | 300W–400W ($250–$350)           |
+| **Charge Controller** | 10A PWM ($15–$30)                | 20A PWM / Small MPPT ($30–$80)  | 30A MPPT ($80–$120)             | 40A MPPT ($100–$140)            |
+| **Battery Options**   | SLA 35–50Ah ($60–$120) <br> AGM 35–50Ah ($75–$150) | SLA 50–100Ah ($100–$200) <br> AGM 50–100Ah ($150–$300) <br> LiFePO₄ 50Ah ($220–$280) | SLA 100Ah ($150–$250) <br> AGM 100Ah ($200–$300) <br> LiFePO₄ 100Ah ($280–$350) | SLA 100–150Ah ($180–$300) <br> AGM 100–150Ah ($200–$300) <br> LiFePO₄ 100Ah ($280–$350) |
+| **Inverter**          | 150–300W (Optional) ($25–$50)    | 300–500W ($50–$80)              | 500–1000W Pure Sine ($80–$120)  | 1000W Pure Sine ($120–$160)     |
+| **Wiring & Mounting** | $20–$40                          | $30–$50                         | $50–$70                         | $80–$100                        |
+| **Total Cost**        | **$150–$300**                    | **$350–$500**                   | **$500–$650**                   | **$650–$750**                   |
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTkyOTc1ODEwM119
 -->
