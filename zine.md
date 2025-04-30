@@ -772,12 +772,14 @@ There are two main types of ring terminals:
 - Copper ring connectors are more reliable and recommended if you can use them.
 - When the copper is pressed together properly with the copper wires the pressure creates a solid metal core that is very strong (see image of cross-section below).
 
-<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/copper-cross.png" width="60%">
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/copper-cross.png" width="50%" align="center">
 
-- Hydrolic crimpers are more reliable for creating solid crimps, but are more expensive then the hammer crimpers.
+- Hydrolic crimpers (right) are more reliable for creating solid crimps, but are more expensive then the hammer crimpers (left).
 
-<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hydrolic-crimper.png" width="50%" align="right">
-<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hammer-crimper.png" width="50%" align="right">
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hydrolic-crimper.png" width="65%" align="right">
+<img src="https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/hammer-crimper.png" width="35%" align="right">
+
+&nbsp;
 
 #### Generic Ring Terminals
 
