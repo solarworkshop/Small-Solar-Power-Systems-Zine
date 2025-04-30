@@ -7,8 +7,20 @@
 @media (min-width: 31.25rem) { h4, .text-delta {font-size: 0.95rem !important;} }
 @media (min-width: 31.25rem) {
     h4, .text-delta {
-        font-size: 0.85rem !important;
+        font-size: 0.95rem !important;
     }
 }
 .newpage { page-break-before: always }
+@media print {
+  .anchor-heading, .text-delta, #markdown-toc {
+    display: none !important;
+  }
+  body {
+    font-size: 1.3em;
+  }
+   h4, .text-delta {
+        font-size: 1.15rem !important;
+    }
+}
+
 </style>

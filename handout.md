@@ -4,17 +4,17 @@ title: 'Workshop Handout'
 layout: minimal
 ---
 
-# Solar Workshop Handout
+## Solar Workshop Handout
 
 Email [solarworkshop@proton.me](mailto:solarworkshop@proton.me) if you want to get in touch.
-
 For digital version and more resources visit [solarworkshop.github.io](https://solarworkshop.github.io/)
 
+<!-- 
 ## Basic Component Layout
 
 ![](https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/images/basic-setup.png)
-
-<div class="newpage"></div>
+-->
+<!-- <div class="newpage"></div> -->
 ## Voltage Drop Chart
 
 This table provides the **maximum one-way wire run** (in feet) for a **3% voltage drop**, based on current load and wire gauge. Values are for **copper wire** and assume a **12V system**.
@@ -34,6 +34,7 @@ When water flows through a pipe, increasing or decreasing either the size of the
 
 **Resistance** ($$R$$) - (measured in **ohms**, represented as Ω) The opposition to the flow of electric current. So in our water example it’s any kink or obstruction in the pipe.
 
+<div class="newpage"></div>
 ## Formulas
 
 **Power:** $$Power(W) = Voltage(V) \times Current(A)$$

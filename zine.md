@@ -1735,7 +1735,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 # 12V Solar Systems Budget Examples
 
 
-| System Size           | Very Small ($150–$300)          | Small ($350–$500)               | Medium 1 ($500–$650)            | Medium 2 ($650–$750)            |
+| System Size | Very Small ($150–$300) | Small ($350–$500) | Medium 1 ($500–$650) | Medium 2 ($650–$750) |
 |-----------------------|----------------------------------|----------------------------------|----------------------------------|----------------------------------|
 | **Solar Panel**       | 50W–100W ($50–$100)              | 100W–200W ($100–$200)           | 200W–300W ($200–$250)           | 300W–400W ($250–$350)           |
 | **Charge Controller** | 10A PWM ($15–$30)                | 20A PWM / Small MPPT ($30–$80)  | 30A MPPT ($80–$120)             | 40A MPPT ($100–$140)            |
@@ -1743,6 +1743,7 @@ There are cheap (around \$30) soldering irons you can find online that will fit 
 | **Inverter**          | 150–300W (Optional) ($25–$50)    | 300–500W ($50–$80)              | 500–1000W Pure Sine ($80–$120)  | 1000W Pure Sine ($120–$160)     |
 | **Wiring & Mounting** | $20–$40                          | $30–$50                         | $50–$70                         | $80–$100                        |
 | **Total Cost**        | **$150–$300**                    | **$350–$500**                   | **$500–$650**                   | **$650–$750**                   |
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTkyOTc1ODEwM119
 -->
