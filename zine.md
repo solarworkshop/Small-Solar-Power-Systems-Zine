@@ -23,7 +23,7 @@ _For digital version and more resources visit [solarworkshop.github.io](https://
 
 ## Introduction
 
-This zine for anyone at any skill level looking to build small solar power systems for power in remote locations, during disaster relief situations, or built into a vehicle. It is intended to cover as much as possible, but is far from exhaustive about any of these topics. It also assumes you’re starting out having never done anything with electricity at all. Which is fine, because we believe these are skills anyone can learn.
+This zine is for anyone at any skill level looking to build small solar power systems for power in remote locations, during disaster relief situations, or built into a vehicle. It is intended to cover as much as possible, but is far from exhaustive about any of these topics. It also assumes you’re starting out having never done anything with electricity at all. Which is fine, because we believe these are skills anyone can learn.
 
 By small we mean systems for powering lights, laptops, phones, radios, and the like, not for powering your a whole house or household appliances. If you do want to build bigger systems, this is still a fine place to start.
 
