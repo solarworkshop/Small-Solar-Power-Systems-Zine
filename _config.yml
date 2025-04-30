@@ -32,6 +32,8 @@ plugins: ['jekyll-feed']
 aux_links:
   Intro to Small Solar Power Systems Zine:
   - '/zine.html'
+  Download Zine for Printing:
+  - 'https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/print/zine-print-imposed.pdf'
   Workshop Handout:
   - '/handout.html'
   Planning Checklist:
