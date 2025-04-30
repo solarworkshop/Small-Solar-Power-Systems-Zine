@@ -36,8 +36,8 @@ aux_links:
   - 'https://raw.githubusercontent.com/solarworkshop/solarworkshop.github.io/main/print/zine-print-imposed.pdf'
   Workshop Handout:
   - '/handout.html'
-  Planning Checklist:
-  - '/checklist.html'
+#  Planning Checklist:
+#  - '/checklist.html'
 
 kramdown:
   toc_levels: 1..2
