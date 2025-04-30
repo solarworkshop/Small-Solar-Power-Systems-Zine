@@ -29,26 +29,26 @@ By small we mean systems for powering lights, laptops, phones, radios, and the l
 
 ## Saftey
 
-Electricity is dangerous and can be scary. We'll touch on saftey briefly first in hopes that you feel empowered to play with eletricity and learn in a safe way. There is a lot more to this topic, but these are some basics as they pertain to small solar setups.
+Electricity is dangerous and can be scary. We'll touch on safety briefly first in hopes that you feel empowered to play with electricity and learn in a safe way. There is a lot more to this topic, but these are some basics as they pertain to small solar setups.
 
-It is good to have a healthy fear of electricity. It can be deadly and its really good at starting fires. However, when working with the relativley low DC current and voltage that we are it is very unlikely that you’ll be shocked ever.
+It is good to have a healthy fear of electricity. It can be deadly and its really good at starting fires. However, when working with the relatively low DC current and voltage that we are it is very unlikely that you’ll be shocked ever.
 
 If you’ve never worked with electricity before some of the concepts here may not make sense, but don’t worry they’ll be explained later on and then you can come back to this section.
 
 - Keep longer exposed metal tools away from battery terminals, touching them to both will cause an arc and huge spark that can result in fragments of metal flying into your eyes.
-- For that reason it is typically recommended that you wear eye protection when doing this work, but most people don’t and you just have to be careful.
+- For that reason it is typically recommended that you wear eye protection when doing this work, but most people don’t and you still need to be cautious.
 - Do not cross positive and negative wires. It’s a good idea to use different color wires (typically red for positive and black for negative) to avoid confusion.
 - Touching one battery terminal or live wire should not hurt you in anything we are doing here, but it’s still best to avoid it.
 - Avoid touching two battery terminals or places in the system at the same time.
 - Ensure that all connections are electrical connections you make are tight and snug so they don’t move or come loose.
-- Avoid having exposed loose wires in or near your system when it is powered. Keeping your work neat is important for saftey.
+- Avoid having exposed loose wires in or near your system when it is powered. Keeping your work neat is important for safety.
 - Avoid running wires through areas where they will be exposed to friction, sharp edges, or other environmental factors that could damange their insulation.
 - If you are unsure if there is power going through something or what it’s polarity is (what wire is positive / negative) check it’s polarity with a multimeter first.
 - Work slowly, carefully, and deliberatley. Think about what wire you are connecting where and why, so you don’t make mistakes.
 - Use properly sized wire thicknesses. Too small of wires will heat up and catch fire.
 - Use properly sized fuses and breakers to protect from short circuit and wires heating up.
 - Although we’re mostly working with DC power here, we still get into AC - what houses have - and the same rules apply for AC as they do in a house. If you touch the hot wire or stick something in a socket you will get zapped.
-- This should go without saying, but do not work with eletricity in wet conditions.
+- This should go without saying, but do not work with electricity in wet conditions.
 
 <!-- TOC --><a name="electricity"></a>
 # Electricity
@@ -81,7 +81,7 @@ When water flows through a pipe, increasing or decreasing either the size of the
 
 Voltage can also be helpful to think about in terms of compatability of different components in a circuit. A circuit with components rated for different voltages will not work and may cause damage or fires. Components even of the same voltage that are meant for AC or DC power (which will be covered later) also cannot be mixed. For example, pretty much everything in a vehicle is 12 volts DC, while most everything in your house is 120 volts AC. 
 
-**Current** ($$I$$) - (measured in **amps**, represented as $$A$$) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more eletricity you have.
+**Current** ($$I$$) - (measured in **amps**, represented as $$A$$) is the rate at which electrons flow through a circuit, or in the pipe how fast water is moving through it. The faster then water flows, the more water you have at the end. The higher the current (or amperage or amps) the more electricity you have.
 
 **Power** ($$P$$) - (measured in **watts**, represented as $$W$$) is the ammount of electricity used or produced. So in the pipe it’s the ammount or volume of water you get out at the end of the pipe.
 
@@ -1726,7 +1726,7 @@ Any of the smaller items in the bigger list above wouldn't hurt to have too if t
 
 ### Battery Powered Soldering Irons
 
-Battery powered soldering irons are relativley cheap, and if you find yourself regularly doing eletrical repairs in the field, carrying an iron and other soldering essentials can be a game changer.
+Battery powered soldering irons are relatively cheap, and if you find yourself regularly doing eletrical repairs in the field, carrying an iron and other soldering essentials can be a game changer.
 
 There are cheap (around \$30) soldering irons you can find online that will fit batteries from common widely used power tool brands, which is very handy.
 
