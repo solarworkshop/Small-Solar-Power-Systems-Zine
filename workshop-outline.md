@@ -6,16 +6,65 @@ search_exclude: true
 layout: minimal
 ---
 
-## Introduction
+## Agenda:
 
-- Who we are and our experience
-- Brief description of workshop
+- Welcome
+- Solar Basics
+- Electricity Basics
+	- Saftey
+	- AC vs. DC
+	- Circuits
+	- Polarity
+- Multimeters
+	- Checking polarity
+- Electricity Measurements / Fluid Dynamics Metaphor
+- Solar Panels In-Depth
+	- Reading the label
+	- Measuring voltage
+	- Solar panel positioning
+	- Shading demo
+	- Measuring current 
+	- Parallel vs. Series
+- Power Formula
+- More Electrical Measurements (Amp/watt hours)
+- Wire
+	- Types of wire
+	- Wire Size and Voltage Drop
+	- Demo melting wire
+- Fuses / protection
+	- Demo popping fuse and breaker
+	- Where to place them
+	- Calculating fuse sizes
+- Connecting the system
+- Charge controllers
+	- Programming charge controller
+- Inverters In-Depth
+- 12v fuse boxes
+- Alternative Ways to Charge Batteries
+- Solar charge controllers
+- Planning system capacity
+
+Other Potential Topics:
+- Batteries in depth
+	- Understanding Battery Measurements
+	- Battery Chemistries
+- Keeping a Solar Installation Neat
+- Larger than 12V Systems
+
+## Welcome
+
+- Tell people to join a group as they come in
+- Who we are and our experience - my experience with electronics, my experience with solar, mostly know hands on things with cheap or free gear, dont know the physics
+- Brief description of workshop 
+	- It will be 3 hours
+	- Were going to build some stuff hands on
 - Discourage from taking notes, there is a zine online, and handout.
 - Please feel free to interupt and ask questions, but we do want to make it through everything and we'll be around all weekend if you have more in-depth questions or questions specific to your situation
 - Go over agenda
 - What it's not going to be
     - Disclaimer that there's a lot that goes into building a solar power system, some of the choices about things we've already made for you. So if you're starting from scratch make sure you know what to consider.
 - Guage people's level of experience somehow?
+- Get to know people in your group
 
 ## Basic solar systems and what were building
 
@@ -292,18 +341,6 @@ Write down the value when youre done.
 **Good result:** Output **at least 70-80% of rated power** under good sunlight.  
 **Bad result:** If power is much lower than expected, the panel has **cell degradation, dirt, or internal failure**.
 
-### Finding the current of your load
-
-Set your multimeter to DC amps (A or mA mode). Larger than expected for load (which is ?)
-
-Place one probe on the battery wire and the other on the load wire for positive.
-
-(Just demostrate and explain this)
-
-This is how much power it is comsuming, so it may change as you use the device and it uses more power (if it's something that can change, have them mess around).
-
-Write down what the highest amprage reading you got on your paper.
-
 ### Parallel vs. Series
 
 Wiring **solar panels** and **batteries** in series or parallel affects the **voltage and current** of the system. Understanding the differences helps in designing an efficient **12V solar power system**.
@@ -450,120 +487,6 @@ This means the battery can **deliver 1,200 watts for 1 hour** or **100 watts for
 - **Choosing the Right Battery Size:** Batteries are rated in **Ah**, but energy needs are often in **Wh**.
 - **Estimating Energy Consumption:** Devices use **Wh** (e.g., a 50W fan for 5 hours = 250Wh).
 - **System Efficiency:** Inverters and other components affect how much of the stored **Wh** can actually be used.
-
-## Planning Your System Capacity
-
-This is an example of how you would plan and figure out the components needed for a system that can run two ham radios and a light.
-
-### Step 1: Determine Total Power Needs
-
-1. List all radios and accessories.
-2. Find each device’s **power rating (W)** and **operating hours per day**.
-3. Use the formula:
-
-```math
-Total Energy (Wh) = ∑(Power(W) × Hours Per Day)
-```
-
-This is the sum of the watt hours of each device.
-
-**Example Setup:**
-
-| **Device** | **Power (W)** | **Hours per Day** | **Energy (Wh)** |
-| --- | --- | --- | --- |
-| HF Transceiver | 50W | 3h  | 150Wh |
-| VHF/UHF Radio | 25W | 4h  | 100Wh |
-| LED Light | 10W | 5h  | 50Wh |
-| **Total Energy Needed** |     |     | **300Wh/day** |
-
-### Step 2: Choose a Solar Panel
-
-- Find your **average sunlight hours** (there are websites where you can look this up, in the mid-atlantic its 3.5 - 4 peak sunlight hours per day).
-- Use the formula:
-
-Solar Panel Size (W) = Daily Energy (Wh) / Sunlight Hours
-
-**Example:  
-**For **300Wh/day** and **5 sunlight hours**:
-
-300Wh / 5h = 60W
-
-**Use a 100W solar panel** for extra capacity and cloudy days.
-
-### Step 3: Select a Battery
-
-- Convert **Wh to Ah** for a **12V battery**:
-
-Battery Capacity(Ah) = Daily Energy (Wh) / Battery Voltage (V)
-
-**Example:**
-
-300Wh / 12V = 25Ah
-
-**Use a 50Ah deep-cycle battery** to ensure reliable backup power.
-
-### Step 4: Pick a Charge Controller
-
-- Prevents overcharging and regulates power.
-- Use the formula:
-
-Charge Controller (A) = Solar Panel (W) / Battery Voltage (V)
-
-**Example:**
-
-100W / 12V = 8.3A
-
-**Use a 10A or 15A charge controller** for safety.
-
-- Have them calculate how long the device they have could be used with the other things they have
-
-## Solar charge controllers
-
-We're almost ready to connect everything but we've left out solar charge controllers.
-
-The charge controller regulates the power from solar panels to prevent overcharging the battery. Can also help prevent battery from being over discharged.
-
-(Talk about what they do and show them and where things go.)
-
-### PWM vs. MPPT Charge Controllers
-
-There are two main types of charge controllers: **PWM** (Pulse Width Modulation) and **MPPT** (Maximum Power Point Tracking).  
-While both do the same basic job, they work very differently and are suited to different types of systems.
-
-#### PWM (Pulse Width Modulation) Charge Controllers
-
-- **How It Works**:  
-  A PWM controller connects the solar panel directly to the battery when charging. As the battery charges up, the controller rapidly "pulses" the connection on and off to maintain the correct voltage without overcharging.
-  
-- **Voltage Matching**:  
-  The solar panel’s voltage is pulled down to match the battery’s voltage. This means if you have a 12V battery, the panel’s voltage must also be around 12V to work efficiently.
-
-- **Efficiency**:  
-  Generally about **70–80% efficient**, because it doesn’t make full use of higher panel voltages.
-
-- **Best For**: Smaller systems; when panel voltage is close to battery voltage; lower-cost, budget setups.
-
-- **Pros**: Inexpensive; simple and reliable; great for small DIY systems.
-  
-- **Cons**: Wastes potential power if panel voltage is much higher than battery voltage; less efficient in cold or cloudy weather
-
-#### MPPT (Maximum Power Point Tracking) Charge Controllers
-
-- **How It Works**:  
-  An MPPT controller is more sophisticated. It constantly measures the output of the panels and finds the **maximum power point** — the optimal combination of voltage and current to produce the most power.  
-  It then **converts** that higher voltage down to match the battery voltage, while **boosting the current** to deliver more charging power.
-
-- **Voltage Flexibility**:  
-  MPPT allows you to use solar panels with a much higher voltage than your battery bank. For example, you can use a 36V or 48V panel to charge a 12V battery.
-
-- **Efficiency**:  
-  Typically **90–99% efficient**, especially in cold or cloudy conditions when panel voltage tends to be higher.
-
-- **Best For**: Larger systems; situations where panel voltage is significantly higher than battery voltage; cold climates (where panels can generate extra voltage); systems where you want to maximize every bit of solar power.
-
-- **Pros**: Much more efficient, especially with high-voltage panels; allows longer wiring runs (because higher voltage travels better over distance); better performance in changing weather.
-
-- **Cons**: More expensive; slightly more complex electronics (but still very reliable).
 
 
 ## How things go together
@@ -716,7 +639,56 @@ So use /a **100A-125A fuse**.
 
 ## Programming charge controller
 
+TODO
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
 ## Inverters
+
+Features to Consider
+
+### **Output Power Rating (Watts)**
+- **Continuous Wattage**: The amount of power the inverter can provide continuously. 
+- **Surge Wattage**: Higher temporary output to handle startup loads of appliances (like fridges, motors, or pumps).
+
+### **Input Voltage**
+- Must match your battery system voltage (12V, 24V, or 48V).
+
+### **Efficiency**
+- Higher efficiency inverters waste less energy as heat, reducing power loss. Look for efficiency ratings of 85–95% or higher.
+
+### **Built-In Safety Features**
+- Automatic shutdown on overload or overheating.
+- Built-in fuses or circuit breakers for safety.
+- Short-circuit protection to prevent damage.
+
+### **Remote Monitoring & Control**
+- Some modern inverters come with remote control or monitoring features, such as Bluetooth, Wi-Fi, or remote panels for easy management.
+
+### **Noise Levels**
+- Inverters with cooling fans can be noisy; consider fanless designs or quieter models if this matters for your application.
+
+### Pure Sine Wave Inverters
+
+- **Produces clean, smooth power** that closely matches the electricity from the utility grid.
+- **Safe for all electronics**, including sensitive devices like laptops; medical equipment; newer refrigerators; LED TVs; microwaves.
+- **Most efficient and safest option** for running all types of appliances.
+
+**Pros**: Compatible with all devices; runs equipment cooler and quieter; reduces risk of damaging sensitive electronics.  
+**Cons**: More expensive than modified sine wave inverters.
+
+### Modified Sine Wave Inverters
+
+- **Produces a rough, choppy power output** — not a smooth wave.
+- Works fine for **simple tools and appliances** like power drills; older TVs; some lights; simple pumps and motors.
+- Can cause problems with sensitive electronics: noisy operation (buzzing sounds); lower efficiency; potential overheating or damage to some devices.
 
 ## 12v fuse boxes
 
@@ -784,7 +756,137 @@ A vehicle’s **alternator** generates DC power while the engine runs, which can
 - Protects the alternator from excessive load.
 
 
+## Solar charge controllers
+
+We're almost ready to connect everything but we've left out solar charge controllers.
+
+The charge controller regulates the power from solar panels to prevent overcharging the battery. Can also help prevent battery from being over discharged.
+
+(Talk about what they do and show them and where things go.)
+
+### PWM vs. MPPT Charge Controllers
+
+There are two main types of charge controllers: **PWM** (Pulse Width Modulation) and **MPPT** (Maximum Power Point Tracking).  
+While both do the same basic job, they work very differently and are suited to different types of systems.
+
+#### PWM (Pulse Width Modulation) Charge Controllers
+
+- **How It Works**:  
+  A PWM controller connects the solar panel directly to the battery when charging. As the battery charges up, the controller rapidly "pulses" the connection on and off to maintain the correct voltage without overcharging.
+  
+- **Voltage Matching**:  
+  The solar panel’s voltage is pulled down to match the battery’s voltage. This means if you have a 12V battery, the panel’s voltage must also be around 12V to work efficiently.
+
+- **Efficiency**:  
+  Generally about **70–80% efficient**, because it doesn’t make full use of higher panel voltages.
+
+- **Best For**: Smaller systems; when panel voltage is close to battery voltage; lower-cost, budget setups.
+
+- **Pros**: Inexpensive; simple and reliable; great for small DIY systems.
+  
+- **Cons**: Wastes potential power if panel voltage is much higher than battery voltage; less efficient in cold or cloudy weather
+
+#### MPPT (Maximum Power Point Tracking) Charge Controllers
+
+- **How It Works**:  
+  An MPPT controller is more sophisticated. It constantly measures the output of the panels and finds the **maximum power point** — the optimal combination of voltage and current to produce the most power.  
+  It then **converts** that higher voltage down to match the battery voltage, while **boosting the current** to deliver more charging power.
+
+- **Voltage Flexibility**:  
+  MPPT allows you to use solar panels with a much higher voltage than your battery bank. For example, you can use a 36V or 48V panel to charge a 12V battery.
+
+- **Efficiency**:  
+  Typically **90–99% efficient**, especially in cold or cloudy conditions when panel voltage tends to be higher.
+
+- **Best For**: Larger systems; situations where panel voltage is significantly higher than battery voltage; cold climates (where panels can generate extra voltage); systems where you want to maximize every bit of solar power.
+
+- **Pros**: Much more efficient, especially with high-voltage panels; allows longer wiring runs (because higher voltage travels better over distance); better performance in changing weather.
+
+- **Cons**: More expensive; slightly more complex electronics (but still very reliable).
+
+## Planning Your System Capacity
+
+Have them measure the output of their device theyre powering.
+
+### Finding the current of your load
+
+Set your multimeter to DC amps (A or mA mode). Larger than expected for load (which is ?)
+
+Place one probe on the battery wire and the other on the load wire for positive.
+
+(Just demostrate and explain this)
+
+This is how much power it is comsuming, so it may change as you use the device and it uses more power (if it's something that can change, have them mess around).
+
+Write down what the highest amprage reading you got on your paper.
+
+
+### Step 1: Determine Total Power Needs
+
+For radios measure when transmitting and when just on, and estimate your transmitting time?
+
+1. List all radios and accessories.
+2. Find each device’s **power rating (W)** and **operating hours per day**.
+3. Use the formula:
+
+```math
+Total Energy (Wh) = ∑(Power(W) × Hours Per Day)
+```
+
+This is the sum of the watt hours of each device.
+
+**Example Setup:**
+
+| **Device** | **Power (W)** | **Hours per Day** | **Energy (Wh)** |
+| --- | --- | --- | --- |
+| HF Transceiver | 50W | 3h  | 150Wh |
+| VHF/UHF Radio | 25W | 4h  | 100Wh |
+| LED Light | 10W | 5h  | 50Wh |
+| **Total Energy Needed** |     |     | **300Wh/day** |
+
+### Step 2: Choose a Solar Panel
+
+- Find your **average sunlight hours** (there are websites where you can look this up, in the mid-atlantic its 3.5 - 4 peak sunlight hours per day).
+- Use the formula:
+
+Solar Panel Size (W) = Daily Energy (Wh) / Sunlight Hours
+
+**Example:  
+**For **300Wh/day** and **5 sunlight hours**:
+
+300Wh / 5h = 60W
+
+**Use a 100W solar panel** for extra capacity and cloudy days.
+
+### Step 3: Select a Battery
+
+- Convert **Wh to Ah** for a **12V battery**:
+
+Battery Capacity(Ah) = Daily Energy (Wh) / Battery Voltage (V)
+
+**Example:**
+
+300Wh / 12V = 25Ah
+
+**Use a 50Ah deep-cycle battery** to ensure reliable backup power.
+
+### Step 4: Pick a Charge Controller
+
+- Prevents overcharging and regulates power.
+- Use the formula:
+
+Charge Controller (A) = Solar Panel (W) / Battery Voltage (V)
+
+**Example:**
+
+100W / 12V = 8.3A
+
+**Use a 10A or 15A charge controller** for safety.
+
+- Have them calculate how long the device they have could be used with the other things they have
+
 # Other Topics
+
 ## Batteries in depth
 
 ### Understanding Battery Measurements
